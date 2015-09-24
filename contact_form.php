@@ -1,4 +1,5 @@
 <?php
+header("Access-Control-Allow-Origin: *");
 // Fetching Values from URL.
 $name = $_POST['name1'];
 $email = $_POST['email1'];
