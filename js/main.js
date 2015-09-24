@@ -85,30 +85,40 @@ jQuery(document).ready(function($) {
 
 		/**********Contact Form Submit*************/
 
-		$('#contactform').on("submit", function(e){
-			e.preventDefault();
-			var name = $("#name").val();
-			var email = $("#email").val();
-			var subject = $("#subject").val();
-			var message = $("#message").val();
-			$("#returnmessage").empty();
-			// Checking for blank fields.
-			if (name == '' || email == '' || subject == '') {
-				alert("Please Fill Required Fields");
-			} else {
-			// Returns successful data submission message when the entered information is stored in database.
-				$.post("contact_form.php", {
-				name1: name,
-				email1: email,
-				subject1: subject,
-				message1: message
-				}, function(data) {
-					$("#returnmessage").append(data); // Append returned message to message paragraph.
-					if (data == "Thank you for reaching out! I will be in touch soon.") {
-						$("#form")[0].reset(); // To reset form fields on success.
-					};
-				});
-			};
+
+		$(function() {
+			var form = $('#contact form');
+			var returnmessage = $('#returnmessage');
+			$(form).submit(function(e){
+				e.preventDefault();
+				//validate
+				var name = $("#name").val();
+				var email = $("#email").val();
+				var subject = $("#subject").val();
+				if (name == '' || email == '' || subject == '') {
+					alert("Please Fill Required Fields");
+				} else {
+					//send
+					var formData = $(form).serialize();
+					$.ajax({
+				    type: 'POST',
+				    url: $(form).attr('action'),
+				    data: formData
+					}).done(function(response) {
+						$(returnmessage).text(response);
+						$("#name").val('');
+						$("#email").val('');
+						$("#subject").val('');
+						$("#message").val('');
+					}).fail(function(data) {
+						if (data.responseText !== '') {
+	        		$(returnmessage).text(data.responseText);
+				    } else {
+			        $(formMessages).text('Sorry! An error occured and your message could not be sent. Please e-mail me the old-fashioned way.');
+				    };
+					});
+				};
+			});
 		});
 
 
