@@ -403,6 +403,12 @@ a.toggle-menu {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .showresume {
+    display: none;
+  }
+}
+
 .content-section {
   margin-top: 80px;
   padding-top: 60px;
