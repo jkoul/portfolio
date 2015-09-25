@@ -474,10 +474,11 @@ a.toggle-menu {
   transition: all 200ms ease-in-out;
 }
 .service-item .service-content .inner-service {
-  padding: 20px;
+  padding: 10px;
 }
 .service-item .service-content h3 {
   font-size: 18px;
+  font-weight: bold;
   text-transform: uppercase;
   color: white;
   display: inline-block;
@@ -642,8 +643,11 @@ a.toggle-menu {
   text-transform: uppercase;
   color: #5e5e5e;
 }
-.skills-heading .small-text {
+.skills-heading p {
   font-style: italic;
+  width: 80%;
+  margin: 0 auto;
+  text-align: justify;
 }
 
 .progress {
@@ -699,6 +703,22 @@ a.toggle-menu {
 
 #footer {
   margin-top: 130px;
+}
+
+.skill-list {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.skill-detail {
+  list-style: disc;
+  list-style-position: inside;
+}
+
+.speciality {
+  font-size: 18px;
+  padding-bottom: 1em;
+  color: #5e5e5e;
 }
 
 /*
