@@ -86,40 +86,40 @@ jQuery(document).ready(function($) {
 		/**********Contact Form Submit*************/
 
 
-		$(function() {
-			var form = $('#contact form');
-			var returnmessage = $('#returnmessage');
-			$(form).submit(function(e){
-				e.preventDefault();
-				//validate
-				var name = $("#name").val();
-				var email = $("#email").val();
-				var subject = $("#subject").val();
-				if (name == '' || email == '' || subject == '') {
-					alert("Please Fill Required Fields");
-				} else {
-					//send
-					var formData = $(form).serialize();
-					$.ajax({
-				    type: 'POST',
-				    url: $(form).attr('action'),
-				    data: formData
-					}).done(function(response) {
-						$(returnmessage).text(response);
-						$("#name").val('');
-						$("#email").val('');
-						$("#subject").val('');
-						$("#message").val('');
-					}).fail(function(data) {
-						if (data.responseText !== '') {
-	        		$(returnmessage).text(data.responseText);
-				    } else {
-			        $(formMessages).text('Sorry! An error occured and your message could not be sent. Please e-mail me the old-fashioned way.');
-				    };
-					});
-				};
-			});
-		});
+		// $(function() {
+		// 	var form = $('#contact form');
+		// 	var returnmessage = $('#returnmessage');
+		// 	$(form).submit(function(e){
+		// 		e.preventDefault();
+		// 		//validate
+		// 		var name = $("#name").val();
+		// 		var email = $("#email").val();
+		// 		var subject = $("#subject").val();
+		// 		if (name == '' || email == '' || subject == '') {
+		// 			alert("Please Fill Required Fields");
+		// 		} else {
+		// 			//send
+		// 			var formData = $(form).serialize();
+		// 			$.ajax({
+		// 		    type: 'POST',
+		// 		    url: $(form).attr('action'),
+		// 		    data: formData
+		// 			}).done(function(response) {
+		// 				$(returnmessage).text(response);
+		// 				$("#name").val('');
+		// 				$("#email").val('');
+		// 				$("#subject").val('');
+		// 				$("#message").val('');
+		// 			}).fail(function(data) {
+		// 				if (data.responseText !== '') {
+	  //       		$(returnmessage).text(data.responseText);
+		// 		    } else {
+		// 	        $(formMessages).text('Sorry! An error occured and your message could not be sent. Please e-mail me the old-fashioned way.');
+		// 		    };
+		// 			});
+		// 		};
+		// 	});
+		// });
 
 
 });
