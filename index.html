@@ -487,13 +487,13 @@ http://www.templatemo.com/free-website-templates/406-flex
                     </div> <!-- /.col-md-7 -->
                     <div class="col-md-5 col-sm-6">
                         <div class="contact-form">
-                            <!-- <p id="returnmessage"></p> -->
-                            <form class="form-horizontal" role="form" method="post" action="contact_form.php">
+                            <p id="returnmessage"></p>
+                            <form class="form-horizontal" role="form" id="contactform" method="post">
                                 <div class="form-group">
                                   <input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
                                 </div>
                                 <div class="form-group">
-                                  <input name="email" type="text" class="form-control" id="email" placeholder="Your Email">
+                                  <input name="_replyto" type="text" class="form-control" id="email" placeholder="Your Email">
                                 </div>
                                 <div class="form-group">
                                   <input name="subject" class="form-control" type="text" id="subject" placeholder="Subject">
@@ -502,10 +502,10 @@ http://www.templatemo.com/free-website-templates/406-flex
                                   <textarea name="message" class="form-control" id="message" placeholder="Message"></textarea>
                                 </div>
                                 <div class="form-group">
-                                  <input name="human" type="text" class="form-control" id="human"  placeholder="Please Answer: 2 + 3 = ?">
-                                </div>
-                                <div class="form-group">
                                   <input name="submit" type="submit" class="mainBtn" id="submit" value="Send Message">
+                                  <input type="hidden" name="_next" value="#" />
+                                  <input type="hidden" name="_subject" value="New message submitted through kouli.sh" />
+                                  <input type="text" name="_gotcha" style="display:none" />
                                 </div>
                             </form>
                         </div> <!-- /.contact-form -->
