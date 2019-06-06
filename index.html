@@ -1,534 +1,557 @@
 <!DOCTYPE html>
 <html lang='en'>
-<head>
-      <meta charset="utf-8">
-      <title>Jeremy Koulish</title>
-    	<meta name="description" content="">
-      <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8">
+    <title>Jeremy Koulish</title>
+  	<meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
 
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/templatemo_misc.css">
+    <link rel="stylesheet" href="css/templatemo_style.css">
+    <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
+  </head>
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/font-awesome.css">
-        <link rel="stylesheet" href="css/animate.css">
-        <link rel="stylesheet" href="css/templatemo_misc.css">
-        <link rel="stylesheet" href="css/templatemo_style.css">
-        <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
-
-
-        <div class="site-main" id="sTop">
-            <div class="site-header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <ul class="social-icons">
-                                <li><a href="mailto:jeremykoulish@gmail.com" class="fa fa-envelope"></a></li>
-                                <li><a href="https://github.com/jkoul" target="_blank" class="fa fa-github"></a></li>
-                                <li><a href="https://www.linkedin.com/in/jkoulish" target="_blank" class="fa fa-linkedin"></a></li>
-                                <li><a href="https://twitter.com/jkoul" target="_blank" class="fa fa-twitter"></a></li>
-                            </ul>
-                        </div> <!-- /.col-md-12 -->
-                    </div> <!-- /.row -->
-                </div> <!-- /.container -->
-                <div class="main-header">
-                    <div class="container">
-                        <div id="menu-wrapper">
-                            <div class="row">
-                                <div class="logo-wrapper col-md-4 col-sm-8 col-xs-10">
-                                    <h1>Jeremy Koulish</h1>
-                                </div> <!-- /.logo-wrapper -->
-                                <div class="col-md-8 col-sm-4 col-xs-2 main-menu text-right">
-                                    <ul class="menu-first hidden-sm hidden-xs">
-                                        <li class="active"><a href="#">Home</a></li>
-                                        <li><a href="#about">About Me</a></li>
-                                        <li><a href="#skills">Skills</a></li>
-                                        <li><a href="#portfolio">Portfolio</a></li>
-                                        <li><a href="#resume">R&eacute;sum&eacute;</a></li>
-                                        <li><a href="#contact">Contact</a></li>
-                                    </ul>
-                                    <a href="#" class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></a>
-                                </div> <!-- /.main-menu -->
-                            </div> <!-- /.row -->
-                        </div> <!-- /#menu-wrapper -->
-                        <div class="menu-responsive hidden-md hidden-lg">
-                            <ul>
-                              <li class="active"><a href="#">Home</a></li>
-                              <li><a href="#about">About Me</a></li>
-                              <li><a href="#skills">Skills</a></li>
-                              <li><a href="#portfolio">Portfolio</a></li>
-                              <li><a href="#resume">R&eacute;sum&eacute;</a></li>
-                              <li><a href="#contact">Contact</a></li>
-                            </ul>
-                        </div> <!-- /.menu-responsive -->
-                    </div> <!-- /.container -->
-                </div> <!-- /.main-header -->
-            </div> <!-- /.site-header -->
-            <div class="site-slider">
-                <div class="slider">
-                    <div class="flexslider">
-                        <ul class="slides">
-                            <li>
-                                <div class="overlay"></div>
-                                <img src="images/code_snippet.png" alt="">
-                                <div class="slider-caption visible-md visible-lg">
-                                    <h2>Full-Stack Web Developer</h2>
-                                    <p>Engineering web apps customized to your needs</p>
-                                    <a href="#projects" class="slider-btn">See My Portfolio</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="overlay"></div>
-                                <img src="images/DARPA_Big_Data.jpg" alt="">
-                                <div class="slider-caption visible-md visible-lg">
-                                    <h2>Data Enthusiast and Analyst</h2>
-                                    <p>I know how to transform raw data into results</p>
-                                    <a href="#skills" class="slider-btn">See My Skills</a>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="overlay"></div>
-                                <img src="images/Washington_dc_skyline.jpg" alt="">
-                                <div class="slider-caption visible-md visible-lg">
-                                    <h2>Accomplished Problem Solver</h2>
-                                    <p>Eager collaborator motivated by innovation and real-world social impact</p>
-                                    <a href="#" class="slider-btn">More About Me</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div> <!-- /.flexslider -->
-                </div> <!-- /.slider -->
-            </div> <!-- /.site-slider -->
-        </div> <!-- /.site-main -->
-
-
-        <div class="content-section" id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="heading-section col-md-12 text-center">
-                        <h2>About Me</h2>
-                        <p>My experience, interests and background</p>
-                    </div> <!-- /.heading-section -->
-                </div> <!-- /.row -->
-                <div class="row">
-                    <div class="team-member col-md-3 col-sm-6">
-                        <div class="member-thumb">
-                            <img src="images/headshot.jpg" alt="">
-                            <div class="team-overlay">
-                                <h3>Impact-Oriented</h3>
-                                <span>I have spent the past decade transforming raw information into real-world impact. Now, I build web tools to empower changemakers.</span>
-
-                            </div> <!-- /.team-overlay -->
-                        </div> <!-- /.member-thumb -->
-                    </div> <!-- /.team-member -->
-                    <div class="team-member col-md-3 col-sm-6">
-                        <div class="member-thumb">
-                            <img src="images/dome.jpg" alt="">
-                            <div class="team-overlay">
-                                <h3>Community-Oriented</h3>
-                                <span>I moved to DC in 2007 and have grown to love this strange and unique city. I actively work to improve local civic outcomes in various ways.</span>
-
-                            </div> <!-- /.team-overlay -->
-                        </div> <!-- /.member-thumb -->
-                    </div> <!-- /.team-member -->
-                    <div class="team-member col-md-3 col-sm-6">
-                        <div class="member-thumb">
-                            <img src="images/ellie_zoo.jpg" alt="">
-                            <div class="team-overlay">
-                                <h3>Family-Oriented</h3>
-                                <span>A proud New York City native, I stay close with my family and visit my sister and two adorable nieces in Baltimore as much as possible.</span>
-
-                            </div> <!-- /.team-overlay -->
-                        </div> <!-- /.member-thumb -->
-                    </div> <!-- /.team-member -->
-                    <div class="team-member col-md-3 col-sm-6">
-                        <div class="member-thumb">
-                            <img src="images/ms_jackson.jpg" alt="">
-                            <div class="team-overlay">
-                                <h3>Balance-Oriented</h3>
-                                <span>While in college, I played the oboe in a semi-pro orchestra. Nowadays, I have embraced DC life and enjoy biking, softball and karaoke.</span>
-
-                            </div> <!-- /.team-overlay -->
-                        </div> <!-- /.member-thumb -->
-                    </div> <!-- /.team-member -->
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </div> <!-- /#about -->
-
-
-        <div class="content-section" id="skills">
-            <div class="container">
-                <div class="row">
-                    <div class="heading-section col-md-12 text-center">
-                        <h2>Skills</h2>
-                        <p>An incessant learner, my diverse array of experiences have endowed me with a diverse array of skills.</p>
-                    </div> <!-- /.heading-section -->
-                </div> <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item" id="service-1">
-                            <div class="service-icon">
-                                <i class="fa fa-file-code-o"></i>
-                            </div> <!-- /.service-icon -->
-                            <div class="service-content">
-                                <div class="inner-service">
-                                   <h3>Front-End Web Development</h3>
-                                   <ul class="skill-list">
-                                     <li>JavaScript:
-                                       <ul class="skill-detail">
-                                         <li>jQuery, Ajax</li>
-                                         <li>JSON</li>
-                                         <li>Node.js, Express.js</li>
-                                         <li>Angular.js</li>
-                                       </ul>
-                                     </li>
-                                     <li>CSS3:
-                                       <ul class="skill-detail">
-                                         <li>Bootstrap</li>
-                                         <li>Sass</li>
-                                       </ul>
-                                     </li>
-                                     <li>HTML5</li>
-                                   </ul>
-                                </div>
-                            </div> <!-- /.service-content -->
-                        </div> <!-- /#service-1 -->
-                    </div> <!-- /.col-md-3 -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item" id="service-2">
-                            <div class="service-icon">
-                                <i class="fa fa-database"></i>
-                            </div> <!-- /.service-icon -->
-                            <div class="service-content">
-                                <div class="inner-service">
-                                   <h3>Back-End Web Development</h3>
-                                   <ul class="skill-list">
-                                     <li>Ruby:
-                                       <ul class="skill-detail">
-                                         <li>Rails</li>
-                                         <li>Sinatra</li>
-                                       </ul>
-                                     </li>
-                                     <li>SQL:
-                                       <ul class="skill-detail">
-                                         <li>PostgreSQL</li>
-                                        <li>MySQL</li>
-                                       </ul>
-                                     <li>MongoDB</li>
-                                     <li>Python (basic)</li>
-                                     <li>PHP (basic)</li>
-                                   </ul>
-                                </div>
-                            </div> <!-- /.service-content -->
-                        </div> <!-- /#service-1 -->
-                    </div> <!-- /.col-md-3 -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item" id="service-3">
-                            <div class="service-icon">
-                                <i class="fa fa-bar-chart-o"></i>
-                            </div> <!-- /.service-icon -->
-                            <div class="service-content">
-                                <div class="inner-service">
-                                   <h3>Data Analysis</h3>
-                                   <ul class="skill-list">
-                                     <li>Stata</li>
-                                     <li>D3</li>
-                                     <li>Excel:
-                                       <ul class="skill-detail">
-                                         <li>VLOOKUP</li>
-                                         <li>Pivot Tables</li>
-                                         <li>Excel charts &amp; graphs</li>
-                                       </ul>
-                                     <li>Mapping:
-                                       <ul class="skill-detail">
-                                         <li>Leaflet.js</li>
-                                         <li>Mapbox</li>
-                                         <li>ArcGIS</li>
-                                       </ul>
-                                     </li>
-                                   </ul>
-                                </div>
-                            </div> <!-- /.service-content -->
-                        </div> <!-- /#service-1 -->
-                    </div> <!-- /.col-md-3 -->
-                    <div class="col-md-3 col-sm-6">
-                        <div class="service-item" id="service-4">
-                            <div class="service-icon">
-                                <i class="fa fa-users"></i>
-                            </div> <!-- /.service-icon -->
-                            <div class="service-content">
-                              <div class="inner-service">
-                                <h3>Other Skills</h3>
-                                <ul class="skill-list">
-                                  <li>Project management</li>
-                                  <li>Writing:
-                                    <ul class="skill-detail">
-                                      <li>Analytical</li>
-                                      <li>Persuasive</li>
-                                    </ul>
-                                   </li>
-                                   <li>Teaching &amp; mentoring</li>
-                                   <li>Public speaking</li>
-                                   <li>Public policy research</li>
-                                   <li>Digital communications:
-                                     <ul class="skill-detail">
-                                       <li>Strategy</li>
-                                       <li>Execution</li>
-                                     </ul>
-                                   </li>
-                                 </ul>
-                               </div>
-                            </div> <!-- /.service-content -->
-                        </div> <!-- /#service-4 -->
-                    </div> <!-- /.col-md-3 -->
-                </div> <!-- /.row -->
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="skills-heading">
-                          <h3 class="skills-title text-center">Web Development and More</h3>
-                          <p>As a natural problem solver with a fiery passion for data-driven outcomes and a predilection towards the common good, I constantly seek opportunities to synthesize information into valuable and actionable knowledge. That mission has afforded me a wide range of experiences and a diverse network of contacts. I deeply enjoy leveraging that network to facilitate collaboration and develop community, and I continually carry the wisdom gained from my past experiences with me, using it to inform new endeavors and professional positions.</p>
-                        </div>
-                    </div> <!-- /.col-md-12 -->
-                </div> <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-6">
-                      <h3 class="speciality">Web Development Specialties:</h3>
-                      <ul class="progess-bars">
-                          <li>
-                              <div class="progress">
-                                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">Database Management</div>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="progress">
-                                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">Ruby on Rails</div>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="progress">
-                                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Data Visualization</div>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="progress">
-                                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">Javascript</div>
-                              </div>
-                          </li>
-                          <li>
-                              <div class="progress">
-                                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">WordPress</div>
-                              </div>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-md-6">
-                        <h3 class="speciality">Other Specialties:</h3>
-                        <ul class="progess-bars">
-                            <li>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width: 99%;">Legislative Analysis</div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">Writing</div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">Teaching/Mentoring</div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">Project Management</div>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">Strategic Communications</div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div> <!-- /.col-md-6 -->
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </div> <!-- /#skills -->
-
-
-
-        <div class="content-section" id="portfolio">
-            <div class="container">
-                <div class="row">
-                    <div class="heading-section col-md-12 text-center">
-                        <h2>Portfolio</h2>
-                        <p>Web applications and other projects</p>
-                    </div> <!-- /.heading-section -->
-                </div> <!-- /.row -->
-                <div class="row">
-                    <div class="portfolio-item col-md-4 col-sm-6">
-                        <div class="portfolio-thumb">
-                            <img src="images/legitrack.png" alt="LegiTrackDC">
-                            <div class="portfolio-overlay">
-                                <h3>LegiTrackDC</h3>
-                                <p>Two-part app built with Rails and Angular.js. Constructed API from DC Council’s legislative database (LIMS). Front-end site includes “support/oppose” feature, search and filters. Still in development.</p>
-                                <a href="http://jkoul.github.io/LegiTrackDC/#/bills" target="_blank" class="expand">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div> <!-- /.portfolio-overlay -->
-                        </div> <!-- /.portfolio-thumb -->
-                    </div> <!-- /.portfolio-item -->
-                    <div class="portfolio-item col-md-4 col-sm-6">
-                        <div class="portfolio-thumb">
-                            <img src="images/dcfuture_blog.png" alt="">
-                            <div class="portfolio-overlay">
-                                <h3>DCFuture Blog</h3>
-                                <p>User-generated blog built with Ruby on Rails. Includes handrolled user authentication, full CRUD capability for users, posts and comments, and categories/tagging.</p>
-                                <a href="https://dcfutureblog.herokuapp.com/" target="_blank" class="expand">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div> <!-- /.portfolio-overlay -->
-                        </div> <!-- /.portfolio-thumb -->
-                    </div> <!-- /.portfolio-item -->
-                    <div class="portfolio-item col-md-4 col-sm-6">
-                        <div class="portfolio-thumb">
-                            <img src="images/blackjack.png" alt="">
-                            <div class="portfolio-overlay">
-                                <h3>Blackjack</h3>
-                                <p>A full-featured blackjack game built with Javascript, HTML and CSS.</p>
-                                <a href="http://jkoul.github.io/blackjack/" target="_blank" class="expand">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div> <!-- /.portfolio-overlay -->
-                        </div> <!-- /.portfolio-thumb -->
-                    </div> <!-- /.portfolio-item -->
-                    <div class="portfolio-item col-md-4 col-sm-6">
-                        <div class="portfolio-thumb">
-                            <img src="images/tripit.png" alt="">
-                            <div class="portfolio-overlay">
-                                <h3>Trip.It</h3>
-                                <p>A responsive mobile app for planning road trips, produced with three other developers and two UX designers during GA Innovation Lab Hackathon.</p>
-                                <a href="images/tripit.png" data-rel="lightbox" target="_blank" class="expand">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div> <!-- /.portfolio-overlay -->
-                        </div> <!-- /.portfolio-thumb -->
-                    </div> <!-- /.portfolio-item -->
-                    <div class="portfolio-item col-md-4 col-sm-6">
-                        <div class="portfolio-thumb">
-                            <img src="images/dcfuture_logo.png" alt="">
-                            <div class="portfolio-overlay">
-                                <h3>DCFuture.com</h3>
-                                <p>A multifaceted platform built on WordPress, empowering DC residents to engage directly with each other and with their local government. Currently in development.</p>
-                                <a href="http://dcfuture.com" target="_blank" class="expand">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div> <!-- /.portfolio-overlay -->
-                        </div> <!-- /.portfolio-thumb -->
-                    </div> <!-- /.portfolio-item -->
-                    <div class="portfolio-item col-md-4 col-sm-6">
-                        <div class="portfolio-thumb">
-                            <img src="images/msi_logo.jpg" alt="">
-                            <div class="portfolio-overlay">
-                                <h3>Main Street Insider</h3>
-                                <p>Spearheaded development, promotion and ongoing production of three products making Congressional legislative process not just accessible, but interesting, to everyday citizens.</p>
-                                <a href="https://web.archive.org/web/20111103012843/http://www.mainstreetinsider.org/" target="_blank" class="expand">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div> <!-- /.portfolio-overlay -->
-                        </div> <!-- /.portfolio-thumb -->
-                    </div> <!-- /.portfolio-item -->
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </div> <!-- /#portfolio -->
-
-        <div class="content-section" id="resume">
-          <div class="container">
-            <div class="row">
-                <div class="heading-section col-md-12 text-center" class="expand">
-                    <h2>R&eacute;sum&eacute;</h2>
-                </div> <!-- /.heading-section -->
-            </div> <!-- /.row -->
-            <div class="row text-center">
-              <a class="openresume btn btn-primary btn-lg" href="images/resume.pdf" target="_blank" class="expand">
-                View in New Tab
-              </a>
-            </div>
-            <div class="showresume row text-center">
-              <div class="col-md-12">
-                  <object type="application/pdf" data="images/resume.pdf" width="800" height="1000"></object>
-                </div> <!-- /.col-md-12 -->
-            </div> <!-- /.row -->
+  <body>
+    <div class="site-main" id="sTop">
+      <div class="site-header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <ul class="social-icons">
+                <li>
+                  <a href="mailto:jkoulish@gmail.com" class="fa fa-envelope"></a>
+                </li>
+                <li>
+                  <a href="https://github.com/jkoul" target="_blank" class="fa fa-github"></a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/jkoulish" target="_blank" class="fa fa-linkedin"></a>
+                </li>
+                <!-- <li>
+                  <a href="https://twitter.com/jkoul" target="_blank" class="fa fa-twitter"></a>
+                </li> -->
+              </ul>
+            </div> <!-- /.col-md-12 -->
+          </div> <!-- /.row -->
         </div> <!-- /.container -->
+        <div class="main-header">
+          <div class="container">
+            <div id="menu-wrapper">
+              <div class="row">
+                  <div class="logo-wrapper col-md-4 col-sm-8 col-xs-10">
+                    <h1>Jeremy Koulish</h1>
+                  </div> <!-- /.logo-wrapper -->
+                  <div class="col-md-8 col-sm-4 col-xs-2 main-menu text-right">
+                    <ul class="menu-first hidden-sm hidden-xs">
+                      <li class="active"><a href="#">Home</a></li>
+                      <li>
+                        <a href="#about">About Me</a>
+                      </li>
+                      <li>
+                        <a href="#skills">Skills</a>
+                      </li>
+                      <li>
+                        <a href="#portfolio">Portfolio</a>
+                      </li>
+                      <li>
+                        <a href="#resume">R&eacute;sum&eacute;</a>
+                      </li>
+                      <li>
+                        <a href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                    <a href="#" class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></a>
+                  </div> <!-- /.main-menu -->
+              </div> <!-- /.row -->
+            </div> <!-- /#menu-wrapper -->
+            <div class="menu-responsive hidden-md hidden-lg">
+              <ul>
+                <li class="active">
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#about">About Me</a>
+                </li>
+                <li>
+                  <a href="#skills">Skills</a>
+                </li>
+                <li>
+                  <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                  <a href="#resume">R&eacute;sum&eacute;</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div> <!-- /.menu-responsive -->
+          </div> <!-- /.container -->
+        </div> <!-- /.main-header -->
+      </div> <!-- /.site-header -->
+      <div class="site-slider">
+        <div class="slider">
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <div class="overlay"></div>
+                <img src="images/code_snippet.png" alt="">
+                <div class="slider-caption visible-md visible-lg">
+                  <h2>Full-Stack Web Developer</h2>
+                  <p>Engineering web apps customized to your needs</p>
+                  <a href="#projects" class="slider-btn">See My Portfolio</a>
+                </div>
+              </li>
+              <li>
+                <div class="overlay"></div>
+                <img src="images/DARPA_Big_Data.jpg" alt="">
+                <div class="slider-caption visible-md visible-lg">
+                  <h2>Data Enthusiast and Analyst</h2>
+                  <p>I know how to transform raw data into results</p>
+                  <a href="#skills" class="slider-btn">See My Skills</a>
+                </div>
+              </li>
+              <li>
+                <div class="overlay"></div>
+                <img src="images/Washington_dc_skyline.jpg" alt="">
+                <div class="slider-caption visible-md visible-lg">
+                  <h2>Accomplished Problem Solver</h2>
+                  <p>Eager collaborator motivated by innovation and real-world social impact</p>
+                  <a href="#" class="slider-btn">More About Me</a>
+                </div>
+              </li>
+            </ul>
+          </div> <!-- /.flexslider -->
+        </div> <!-- /.slider -->
+      </div> <!-- /.site-slider -->
+    </div> <!-- /.site-main -->
+
+
+    <div class="content-section" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="heading-section col-md-12 text-center">
+              <h2>About Me</h2>
+              <p>My experience, interests and background</p>
+          </div> <!-- /.heading-section -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="team-member col-md-3 col-sm-6">
+            <div class="member-thumb">
+              <img src="images/headshot.jpg" alt="">
+              <div class="team-overlay">
+                <h3>Impact-Oriented</h3>
+                <span>I have spent the past decade transforming raw information into real-world impact. Now, I build web tools to empower changemakers.</span>
+              </div> <!-- /.team-overlay -->
+            </div> <!-- /.member-thumb -->
+          </div> <!-- /.team-member -->
+          <div class="team-member col-md-3 col-sm-6">
+            <div class="member-thumb">
+              <img src="images/dome.jpg" alt="">
+              <div class="team-overlay">
+                <h3>Community-Oriented</h3>
+                <span>I moved to DC in 2007 and have grown to love this strange and unique city. I actively work to improve local civic outcomes in various ways.</span>
+              </div> <!-- /.team-overlay -->
+            </div> <!-- /.member-thumb -->
+          </div> <!-- /.team-member -->
+          <div class="team-member col-md-3 col-sm-6">
+            <div class="member-thumb">
+              <img src="images/ellie_zoo.jpg" alt="">
+              <div class="team-overlay">
+                <h3>Family-Oriented</h3>
+                <span>A proud New York City native, I stay close with my family and visit my sister and two adorable nieces in Baltimore as much as possible.</span>
+              </div> <!-- /.team-overlay -->
+            </div> <!-- /.member-thumb -->
+          </div> <!-- /.team-member -->
+          <div class="team-member col-md-3 col-sm-6">
+            <div class="member-thumb">
+              <img src="images/ms_jackson.jpg" alt="">
+              <div class="team-overlay">
+                <h3>Balance-Oriented</h3>
+                <span>While in college, I played the oboe in a semi-pro orchestra. Nowadays, I have embraced DC life and enjoy biking, softball and karaoke.</span>
+              </div> <!-- /.team-overlay -->
+            </div> <!-- /.member-thumb -->
+          </div> <!-- /.team-member -->
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </div> <!-- /#about -->
+
+    <div class="content-section" id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="heading-section col-md-12 text-center">
+            <h2>Skills</h2>
+            <p>An incessant learner, my diverse array of experiences have endowed me with a diverse array of skills.</p>
+          </div> <!-- /.heading-section -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item" id="service-1">
+              <div class="service-icon">
+                  <i class="fa fa-file-code-o"></i>
+              </div> <!-- /.service-icon -->
+              <div class="service-content">
+                <div class="inner-service">
+                  <h3>Front-End Web Development</h3>
+                  <ul class="skill-list">
+                    <li>JavaScript:
+                      <ul class="skill-detail">
+                        <li>jQuery, Ajax</li>
+                        <li>JSON</li>
+                        <li>Node.js, Express.js</li>
+                        <li>Angular.js</li>
+                      </ul>
+                    </li>
+                    <li>CSS3:
+                      <ul class="skill-detail">
+                        <li>Bootstrap</li>
+                        <li>Sass</li>
+                      </ul>
+                    </li>
+                    <li>HTML5</li>
+                  </ul>
+                </div>
+              </div> <!-- /.service-content -->
+            </div> <!-- /#service-1 -->
+          </div> <!-- /.col-md-3 -->
+          <div class="col-md-3 col-sm-6">
+              <div class="service-item" id="service-2">
+                  <div class="service-icon">
+                      <i class="fa fa-database"></i>
+                  </div> <!-- /.service-icon -->
+                  <div class="service-content">
+                      <div class="inner-service">
+                         <h3>Back-End Web Development</h3>
+                         <ul class="skill-list">
+                           <li>Ruby:
+                             <ul class="skill-detail">
+                               <li>Rails</li>
+                               <li>Sinatra</li>
+                             </ul>
+                           </li>
+                           <li>SQL:
+                             <ul class="skill-detail">
+                               <li>PostgreSQL</li>
+                              <li>MySQL</li>
+                             </ul>
+                           <li>MongoDB</li>
+                           <li>Python (basic)</li>
+                           <li>PHP (basic)</li>
+                         </ul>
+                      </div>
+                  </div> <!-- /.service-content -->
+              </div> <!-- /#service-1 -->
+          </div> <!-- /.col-md-3 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item" id="service-3">
+              <div class="service-icon">
+                <i class="fa fa-bar-chart-o"></i>
+              </div> <!-- /.service-icon -->
+              <div class="service-content">
+                <div class="inner-service">
+                  <h3>Data Analysis</h3>
+                  <ul class="skill-list">
+                    <li>Stata</li>
+                    <li>D3</li>
+                    <li>Excel:
+                  <ul class="skill-detail">
+                    <li>VLOOKUP</li>
+                    <li>Pivot Tables</li>
+                    <li>Excel charts &amp; graphs</li>
+                  </ul>
+                    <li>Mapping:
+                      <ul class="skill-detail">
+                        <li>Leaflet.js</li>
+                        <li>Mapbox</li>
+                        <li>ArcGIS</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- /.service-content -->
+            </div> <!-- /#service-1 -->
+          </div> <!-- /.col-md-3 -->
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item" id="service-4">
+              <div class="service-icon">
+                <i class="fa fa-users"></i>
+              </div> <!-- /.service-icon -->
+              <div class="service-content">
+                <div class="inner-service">
+                  <h3>Other Skills</h3>
+                  <ul class="skill-list">
+                    <li>Project management</li>
+                    <li>Writing:
+                      <ul class="skill-detail">
+                        <li>Analytical</li>
+                        <li>Persuasive</li>
+                      </ul>
+                    </li>
+                    <li>Teaching &amp; mentoring</li>
+                    <li>Public speaking</li>
+                    <li>Public policy research</li>
+                    <li>Digital communications:
+                      <ul class="skill-detail">
+                        <li>Strategy</li>
+                        <li>Execution</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div> <!-- /.service-content -->
+            </div> <!-- /#service-4 -->
+          </div> <!-- /.col-md-3 -->
+        </div> <!-- /.row -->
+
+        <div class="row">
+          <div class="col-md-12">
+            <div class="skills-heading">
+              <h3 class="skills-title text-center">Web Development and More</h3>
+              <p>As a natural problem solver with a fiery passion for data-driven outcomes and a predilection towards the common good, I constantly seek opportunities to synthesize information into valuable and actionable knowledge. That mission has afforded me a wide range of experiences and a diverse network of contacts. I deeply enjoy leveraging that network to facilitate collaboration and develop community, and I continually carry the wisdom gained from my past experiences with me, using it to inform new endeavors and professional positions.</p>
+            </div>
+          </div> <!-- /.col-md-12 -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="speciality">Web Development Specialties:</h3>
+            <ul class="progess-bars">
+              <li>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">Database Management</div>
+                </div>
+              </li>
+              <li>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">Ruby on Rails</div>
+                </div>
+              </li>
+              <li>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Data Visualization</div>
+                </div>
+              </li>
+              <li>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">Javascript</div>
+                </div>
+              </li>
+              <li>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">WordPress</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3 class="speciality">Other Specialties:</h3>
+            <ul class="progess-bars">
+              <li>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width: 99%;">Legislative Analysis</div>
+                </div>
+              </li>
+              <li>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">Writing</div>
+                </div>
+              </li>
+              <li>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">Teaching/Mentoring</div>
+                </div>
+              </li>
+              <li>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">Project Management</div>
+                </div>
+              </li>
+              <li>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">Strategic Communications</div>
+                </div>
+              </li>
+            </ul>
+          </div> <!-- /.col-md-6 -->
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </div> <!-- /#skills -->
+
+
+
+    <div class="content-section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="heading-section col-md-12 text-center">
+            <h2>Portfolio</h2>
+            <p>Web applications and other projects</p>
+          </div> <!-- /.heading-section -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="portfolio-item col-md-4 col-sm-6">
+            <div class="portfolio-thumb">
+              <img src="images/legitrack.png" alt="LegiTrackDC">
+              <div class="portfolio-overlay">
+                <h3>LegiTrackDC</h3>
+                <p>Two-part app built with Rails and Angular.js. Constructed API from DC Council’s legislative database (LIMS). Front-end site includes “support/oppose” feature, search and filters. Still in development.</p>
+                <a href="http://jkoul.github.io/LegiTrackDC/#/bills" target="_blank" class="expand">
+                  <i class="fa fa-search"></i>
+                </a>
+              </div> <!-- /.portfolio-overlay -->
+            </div> <!-- /.portfolio-thumb -->
+          </div> <!-- /.portfolio-item -->
+          <div class="portfolio-item col-md-4 col-sm-6">
+            <div class="portfolio-thumb">
+              <img src="images/dcfuture_blog.png" alt="">
+              <div class="portfolio-overlay">
+                <h3>DCFuture Blog</h3>
+                <p>User-generated blog built with Ruby on Rails. Includes handrolled user authentication, full CRUD capability for users, posts and comments, and categories/tagging.</p>
+                <a href="https://dcfutureblog.herokuapp.com/" target="_blank" class="expand">
+                  <i class="fa fa-search"></i>
+                </a>
+              </div> <!-- /.portfolio-overlay -->
+            </div> <!-- /.portfolio-thumb -->
+          </div> <!-- /.portfolio-item -->
+          <div class="portfolio-item col-md-4 col-sm-6">
+            <div class="portfolio-thumb">
+              <img src="images/blackjack.png" alt="">
+              <div class="portfolio-overlay">
+                <h3>Blackjack</h3>
+                <p>A full-featured blackjack game built with Javascript, HTML and CSS.</p>
+                <a href="http://jkoul.github.io/blackjack/" target="_blank" class="expand">
+                  <i class="fa fa-search"></i>
+                </a>
+              </div> <!-- /.portfolio-overlay -->
+            </div> <!-- /.portfolio-thumb -->
+          </div> <!-- /.portfolio-item -->
+          <div class="portfolio-item col-md-4 col-sm-6">
+            <div class="portfolio-thumb">
+              <img src="images/tripit.png" alt="">
+              <div class="portfolio-overlay">
+                <h3>Trip.It</h3>
+                <p>A responsive mobile app for planning road trips, produced with three other developers and two UX designers during GA Innovation Lab Hackathon.</p>
+                <a href="images/tripit.png" data-rel="lightbox" target="_blank" class="expand">
+                  <i class="fa fa-search"></i>
+                </a>
+              </div> <!-- /.portfolio-overlay -->
+            </div> <!-- /.portfolio-thumb -->
+          </div> <!-- /.portfolio-item -->
+          <div class="portfolio-item col-md-4 col-sm-6">
+            <div class="portfolio-thumb">
+              <img src="images/dcfuture_logo.png" alt="">
+              <div class="portfolio-overlay">
+                <h3>DCFuture.com</h3>
+                <p>A multifaceted platform built on WordPress, empowering DC residents to engage directly with each other and with their local government. Currently in development.</p>
+                <a href="http://dcfuture.com" target="_blank" class="expand">
+                  <i class="fa fa-search"></i>
+                </a>
+              </div> <!-- /.portfolio-overlay -->
+            </div> <!-- /.portfolio-thumb -->
+          </div> <!-- /.portfolio-item -->
+          <div class="portfolio-item col-md-4 col-sm-6">
+            <div class="portfolio-thumb">
+              <img src="images/msi_logo.jpg" alt="">
+              <div class="portfolio-overlay">
+                <h3>Main Street Insider</h3>
+                <p>Spearheaded development, promotion and ongoing production of three products making Congressional legislative process not just accessible, but interesting, to everyday citizens.</p>
+                <a href="https://web.archive.org/web/20111103012843/http://www.mainstreetinsider.org/" target="_blank" class="expand">
+                  <i class="fa fa-search"></i>
+                </a>
+              </div> <!-- /.portfolio-overlay -->
+            </div> <!-- /.portfolio-thumb -->
+          </div> <!-- /.portfolio-item -->
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </div> <!-- /#portfolio -->
+
+    <div class="content-section" id="resume">
+      <div class="container">
+        <div class="row">
+          <div class="heading-section col-md-12 text-center" class="expand">
+            <h2>R&eacute;sum&eacute;</h2>
+          </div> <!-- /.heading-section -->
+        </div> <!-- /.row -->
+        <div class="row text-center">
+          <a class="openresume btn btn-primary btn-lg" href="images/resume.pdf" target="_blank" class="expand">
+            View in New Tab
+          </a>
+        </div>
+        <div class="showresume row text-center">
+          <div class="col-md-12">
+            <object type="application/pdf" data="images/resume.pdf" width="800" height="1000"></object>
+          </div> <!-- /.col-md-12 -->
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
     </div> <!-- /#resume -->
 
 
-        <div class="content-section" id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="heading-section col-md-12 text-center">
-                        <h2>Contact Me</h2>
-                        <p>I want to hear from you!</p>
-                    </div> <!-- /.heading-section -->
-                </div> <!-- /.row -->
-                <div class="row">
-                    <div class="col-md-7 col-sm-6">
-                        <p>Whether you're a prospective employer, seek my services as a freelancer, want to discuss an opportunity for collaboration, or just want to say hi, please do not hesitate to reach out.</p>
-                        <ul class="contact-info">
-                            <li>Phone: 917-597-4397</li>
-                            <li>Email: <a href="mailto:jeremy.koulish@gmail.com">jeremy.koulish@gmail.com</a></li>
-                        </ul>
-                        <!-- spacing for mobile viewing --><br><br>
-                    </div> <!-- /.col-md-7 -->
-                    <div class="col-md-5 col-sm-6">
-                        <div class="contact-form">
-                            <p id="returnmessage"></p>
-                            <form class="form-horizontal" role="form" id="contactform" method="post">
-                                <div class="form-group">
-                                  <input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
-                                </div>
-                                <div class="form-group">
-                                  <input name="_replyto" type="text" class="form-control" id="email" placeholder="Your Email">
-                                </div>
-                                <div class="form-group">
-                                  <input name="subject" class="form-control" type="text" id="subject" placeholder="Subject">
-                                </div>
-                                <div class="form-group">
-                                  <textarea name="message" class="form-control" id="message" placeholder="Message"></textarea>
-                                </div>
-                                <div class="form-group">
-                                  <input name="submit" type="submit" class="mainBtn" id="submit" value="Send Message">
-                                  <input type="hidden" name="_next" value="#" />
-                                  <input type="hidden" name="_subject" value="New message submitted through kouli.sh" />
-                                  <input type="text" name="_gotcha" style="display:none" />
-                                </div>
-                            </form>
-                        </div> <!-- /.contact-form -->
-                    </div> <!-- /.col-md-5 -->
-                </div> <!-- /.row -->
-            </div> <!-- /.container -->
-        </div> <!-- /#contact -->
-
-        <div id="footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-xs-12 text-left">
-                <span>Copyright &copy; 2015 Jeremy Koulish</span>
-                <div class="col-md-4 hidden-xs text-right">
-                  <a href="#top" id="go-top">Back to top</a>
+    <div class="content-section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="heading-section col-md-12 text-center">
+            <h2>Contact Me</h2>
+            <p>I want to hear from you!</p>
+          </div> <!-- /.heading-section -->
+        </div> <!-- /.row -->
+        <div class="row">
+          <div class="col-md-7 col-sm-6">
+            <p>Whether you're a prospective employer, seek my services as a freelancer, want to discuss an opportunity for collaboration, or just want to say hi, please do not hesitate to reach out.</p>
+            <ul class="contact-info">
+                <li>Phone: 917-597-4397</li>
+                <li>Email: <a href="mailto:jeremy.koulish@gmail.com">jeremy.koulish@gmail.com</a></li>
+            </ul>
+            <!-- spacing for mobile viewing --><br><br>
+          </div> <!-- /.col-md-7 -->
+          <div class="col-md-5 col-sm-6">
+            <div class="contact-form">
+              <p id="returnmessage"></p>
+              <form class="form-horizontal" role="form" id="contactform" method="post">
+                <div class="form-group">
+                  <input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
                 </div>
-              </div> <!-- /.text-center -->
-            </div> <!-- /.row -->
-          </div> <!-- /.container -->
-        </div> <!-- /#footer -->
+                <div class="form-group">
+                  <input name="_replyto" type="text" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                  <input name="subject" class="form-control" type="text" id="subject" placeholder="Subject">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" class="form-control" id="message" placeholder="Message"></textarea>
+                </div>
+                <div class="form-group">
+                  <input name="submit" type="submit" class="mainBtn" id="submit" value="Send Message">
+                  <input type="hidden" name="_next" value="#" />
+                  <input type="hidden" name="_subject" value="New message submitted through kouli.sh" />
+                  <input type="text" name="_gotcha" style="display:none" />
+                </div>
+              </form>
+            </div> <!-- /.contact-form -->
+          </div> <!-- /.col-md-5 -->
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </div> <!-- /#contact -->
 
-        <script src="js/vendor/jquery-1.11.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+    <div id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12 text-left">
+            <span>Copyright &copy; 2015 Jeremy Koulish</span>
+            <div class="col-md-4 hidden-xs text-right">
+              <a href="#top" id="go-top">Back to top</a>
+            </div>
+          </div> <!-- /.text-center -->
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </div> <!-- /#footer -->
 
-    </body>
+    <script src="js/vendor/jquery-1.11.0.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
 </html>
