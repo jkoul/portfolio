@@ -101,7 +101,7 @@ jQuery(document).ready(function($) {
 					//send
 					var formData = $(form).serialize();
 					$.ajax({
-						url: "//formspree.io/jkoulish@gmail.com",
+						url: "//formspree.io/jeremykoulish@gmail.com",
 				    method: 'POST',
 				    data: formData,
 						dataType: "json"
