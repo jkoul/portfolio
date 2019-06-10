@@ -754,14 +754,65 @@ a.toggle-menu {
   margin-top: 130px;
 }
 
+.skill-section + .skill-section {
+  margin-top: 15px;
+}
+
+.skill-section h4 {
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 600;
+  color: #fff;
+  text-align: left;
+  padding-left: 5px;
+  text-decoration: underline;
+}
+
 .skill-list {
   text-align: left;
-  padding-left: 20px;
+  padding-left: 5px;
+}
+
+.skill-list > li {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 .skill-detail {
-  list-style: disc;
-  list-style-position: inside;
+  position: relative;
+  display: inline;
+  padding-left: 10px;
+  list-style: none;
+  /* list-style-position: inside; */
+}
+
+.skill-detail::before {
+  content: '(';
+  position: absolute;
+  left: 5px;
+  display: inline;
+}
+
+.skill-detail::after {
+  content: ')';
+  position: absolute;
+  padding-left: 4px;
+  /* right: -8px; */
+  display: inline;
+}
+
+.skill-detail li {
+  padding: 0;
+  margin: 0;
+  display: inline;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.skill-detail li:not(:last-child)::after {
+  content: ', ';
 }
 
 .speciality {
