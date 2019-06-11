@@ -497,6 +497,9 @@ a.toggle-menu {
 .service-item .service-content {
   padding: 10px;
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 0;
   left: 0;
   width: 100%;
@@ -563,6 +566,10 @@ a.toggle-menu {
   top: 0;
   left: 0;
   padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: white;
   opacity: 0;
@@ -573,13 +580,22 @@ a.toggle-menu {
 }
 .portfolio-item .portfolio-thumb .portfolio-overlay h3 {
   font-size: 18px;
+  font-weight: bold;
   text-transform: uppercase;
-  color: white;
   padding-bottom: 10px;
   margin-bottom: 10px;
   display: inline-block;
   border-bottom: 1px solid white;
 }
+
+.portfolio-item .portfolio-thumb .portfolio-overlay h3 a {
+  color: white;
+}
+
+.portfolio-item .portfolio-thumb .portfolio-overlay h3 a:hover {
+  color: #d5d5d5;
+}
+
 .portfolio-item .portfolio-thumb .portfolio-overlay a.expand {
   margin-top: 15px;
   width: 36px;
