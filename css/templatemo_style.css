@@ -588,7 +588,9 @@ a.toggle-menu {
   border-bottom: 1px solid white;
 }
 
-.portfolio-item .portfolio-thumb .portfolio-overlay h3 a {
+.portfolio-item .portfolio-thumb .portfolio-overlay h3 a,
+.portfolio-item .portfolio-thumb .portfolio-overlay h3.no-link
+ {
   color: white;
 }
 
