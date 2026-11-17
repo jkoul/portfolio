@@ -1,654 +1,227 @@
-<!DOCTYPE html>
-<html lang='en'>
-  <head>
-    <meta charset="utf-8">
-    <title>Jeremy Koulish</title>
-  	<meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17262e">
+  <meta name="description" content="Jeremy Koulish — Senior Frontend & Product Engineer. Building accessible, data-rich technology at the intersection of software engineering, data, and public policy.">
+  <title>Jeremy Koulish | Senior Frontend & Product Engineer</title>
+  <meta property="og:title" content="Jeremy Koulish — Senior Frontend & Product Engineer">
+  <meta property="og:description" content="Selected engineering and research work at the intersection of technology, data, and public policy.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2317262e'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial,sans-serif' font-size='35' font-weight='bold' fill='%23f7f5ef'%3EJK%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/refresh-2026.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/templatemo_misc.css">
-    <link rel="stylesheet" href="css/templatemo_style.css">
-    <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
-  </head>
+  <header class="site-header">
+    <div class="container nav-inner">
+      <a class="wordmark" href="#top" aria-label="Jeremy Koulish, back to top">JK<span>.</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <body>
-    <div class="site-main" id="sTop">
-      <div class="site-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <ul class="social-icons">
-                <li>
-                  <a href="mailto:jeremy.koulish@gmail.com" class="fa fa-envelope"></a>
-                </li>
-                <li>
-                  <a href="https://github.com/jkoul" target="_blank" class="fa fa-github"></a>
-                </li>
-                <li>
-                  <a href="https://www.linkedin.com/in/jkoulish" target="_blank" class="fa fa-linkedin"></a>
-                </li>
-                <!-- <li>
-                  <a href="https://twitter.com/jkoul" target="_blank" class="fa fa-twitter"></a>
-                </li> -->
-              </ul>
-            </div> <!-- /.col-md-12 -->
-          </div> <!-- /.row -->
-        </div> <!-- /.container -->
-        <div class="main-header">
-          <div class="container">
-            <div id="menu-wrapper">
-              <div class="row">
-                <div class="col-xs-12 row-flex">
-                  <div class="logo-wrapper">
-                    <h1>Jeremy Koulish</h1>
-                  </div> <!-- /.logo-wrapper -->
-                  <div class="main-menu text-right">
-                    <ul class="menu-first hidden-sm hidden-xs">
-                      <li class="active"><a href="#">Home</a></li>
-                      <li>
-                        <a href="#about">About Me</a>
-                      </li>
-                      <li>
-                        <a href="#skills">Skills</a>
-                      </li>
-                      <li>
-                        <a href="#portfolio">Portfolio</a>
-                      </li>
-                      <li>
-                        <a href="#resume">R&eacute;sum&eacute;</a>
-                      </li>
-                      <li>
-                        <a href="#contact">Contact</a>
-                      </li>
-                    </ul>
-                    <a href="#" class="toggle-menu visible-sm visible-xs"><i class="fa fa-bars"></i></a>
-                  </div> <!-- /.main-menu -->
-                </div> <!-- .col-xs-12 .row-flex -->
-              </div> <!-- /.row -->
-            </div> <!-- /#menu-wrapper -->
-            <div class="menu-responsive hidden-md hidden-lg">
-              <ul>
-                <li class="active">
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#about">About Me</a>
-                </li>
-                <li>
-                  <a href="#skills">Skills</a>
-                </li>
-                <li>
-                  <a href="#portfolio">Portfolio</a>
-                </li>
-                <li>
-                  <a href="#resume">R&eacute;sum&eacute;</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
-            </div> <!-- /.menu-responsive -->
-          </div> <!-- /.container -->
-        </div> <!-- /.main-header -->
-      </div> <!-- /.site-header -->
-      <div class="site-slider">
-        <div class="slider">
-          <div class="flexslider">
-            <ul class="slides">
-              <li>
-                <div class="overlay"></div>
-                <img src="images/DARPA_Big_Data.jpg" alt="DARPA Big Data">
-                <div class="slider-caption visible-md visible-lg">
-                  <h2>Data Enthusiast and Analyst</h2>
-                  <p>I know how to transform raw data into results</p>
-                  <a href="#skills" class="slider-btn">See My Skills</a>
-                </div> 
-              </li>
-              <li>
-                <div class="overlay"></div>
-                <img src="images/angular_code_example.png" alt="Code example">
-                <div class="slider-caption visible-md visible-lg">
-                  <h2>Full-Stack Web Developer</h2>
-                  <p>Engineering web apps customized to your needs</p>
-                  <a href="#portfolio" class="slider-btn">See My Portfolio</a>
-                </div>
-              </li>
-              <li>
-                <div class="overlay"></div>
-                <img src="images/Washington_dc_skyline.jpg" alt="Washington, DC skyline">
-                <div class="slider-caption visible-md visible-lg">
-                  <h2>Accomplished Problem Solver</h2>
-                  <p>Eager collaborator motivated by innovation and real-world social impact</p>
-                  <a href="#" class="slider-btn">More About Me</a>
-                </div>
-              </li>
-            </ul>
-          </div> <!-- /.flexslider -->
-        </div> <!-- /.slider -->
-      </div> <!-- /.site-slider -->
-    </div> <!-- /.site-main -->
-
-
-    <div class="content-section" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="heading-section col-md-12 text-center">
-              <h2>About Me</h2>
-              <p>My experience, interests and background</p>
-          </div> <!-- /.heading-section -->
-        </div> <!-- /.row -->
-        <div class="row">
-          <div class="team-member col-lg-3 col-sm-6">
-            <div class="member-thumb">
-              <img src="images/headshot.jpg" alt="Jeremy Koulish headshot">
-              <div class="team-overlay">
-                <div class="team-overlay-inner">
-                  <h3>Impact-Oriented</h3>
-                  <span>I have been driven throughout my career to transform raw information into real-world impact.</span>
-                </div>
-              </div> <!-- /.team-overlay -->
-            </div> <!-- /.member-thumb -->
-          </div> <!-- /.team-member -->
-          <div class="team-member col-lg-3 col-sm-6">
-            <div class="member-thumb">
-              <img src="images/dome.jpg" alt="U.S. Capitol dome">
-              <div class="team-overlay">
-                <div class="team-overlay-inner">
-                  <h3>Community-Oriented</h3>
-                  <span>I moved to DC in 2007 and have grown to love this strange and unique city. I actively work to improve local civic outcomes in various ways.</span>
-                </div>
-              </div> <!-- /.team-overlay -->
-            </div> <!-- /.member-thumb -->
-          </div> <!-- /.team-member -->
-          <div class="team-member col-lg-3 col-sm-6">
-            <div class="member-thumb">
-              <img src="images/ellie_zoo.jpg" alt="Jeremy with niece">
-              <div class="team-overlay">
-                <div class="team-overlay-inner">
-                  <h3>Family-Oriented</h3>
-                  <span>A proud New York City native, I stay close with my family and visit my sister and two adorable nieces in Baltimore as much as possible.</span>
-                </div>
-              </div> <!-- /.team-overlay -->
-            </div> <!-- /.member-thumb -->
-          </div> <!-- /.team-member -->
-          <div class="team-member col-lg-3 col-sm-6">
-            <div class="member-thumb">
-              <img src="images/saxophone.png" alt="Jeremy playing saxophone">
-              <div class="team-overlay">
-                <div class="team-overlay-inner">
-                  <h3>Balance-Oriented</h3>
-                  <span>While in college, I played the oboe in a semi-pro orchestra. Nowadays, I have embraced DC life, playing the saxophone and enjoying biking, softball and karaoke.</span>
-                </div>
-              </div> <!-- /.team-overlay -->
-            </div> <!-- /.member-thumb -->
-          </div> <!-- /.team-member -->
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-    </div> <!-- /#about -->
-
-    <div class="content-section" id="skills">
-      <div class="container">
-        <div class="row">
-          <div class="heading-section skills-heading col-md-12 text-center">
-            <h2>Skills</h2>
-            <p>As a natural problem solver with a fiery passion for data-driven outcomes and a predilection towards the common good, I constantly seek opportunities to synthesize information into valuable and actionable knowledge. That mission has afforded me a wide range of experiences and a diverse network of contacts. I deeply enjoy leveraging that network to facilitate collaboration and develop community, and I continually carry the wisdom gained from my past experiences with me, using it to inform new endeavors and professional positions.</p>
-          </div> <!-- /.heading-section -->
-        </div> <!-- /.row -->
-        <div class="row">
-          <div class="col-md-6">
-            <h3 class="speciality">Technical Specialties:</h3>
-            <ul class="progess-bars">
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">Data Management, Cleaning &amp; Manipulation</div>
-                </div>
-              </li>
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">Data Analytics</div>
-                </div>
-              </li>
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">Drupal</div>
-                </div>
-              </li>
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">JavaScript</div>
-                </div>
-              </li>
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">Data Visualization</div>
-                </div>
-              </li>
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">Statistical Modeling</div>
-                </div>
-              </li>
-            </ul>
+  <main id="main">
+    <section id="top" class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-inner">
+        <p class="eyebrow hero-eyebrow">Software engineering <span aria-hidden="true">/</span> Data <span aria-hidden="true">/</span> Public policy</p>
+        <h1 id="hero-heading" class="hero-name"><span>Jeremy</span><span>Koulish<span class="name-period">.</span></span></h1>
+        <div class="hero-message">
+          <div class="hero-identity">
+            <p class="hero-job">Senior Frontend &amp;<br>Product Engineer</p>
+            <p class="hero-place">Based in New York</p>
           </div>
-          <div class="col-md-6">
-            <h3 class="speciality">Other Specialties:</h3>
-            <ul class="progess-bars">
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" style="width: 99%;">Policy &amp; Political Analysis</div>
-                </div>
-              </li>
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">Nonprofit Sector</div>
-                </div>
-              </li>
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">Writing</div>
-                </div>
-              </li>
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">Internet Research</div>
-                </div>
-              </li>
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">Teaching/Mentoring</div>
-                </div>
-              </li>
-              <li>
-                <div class="progress">
-                  <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;">Strategic Planning</div>
-                </div>
-              </li>
-            </ul>
-          </div> <!-- /.col-md-6 -->
-        </div> <!-- /.row -->
-
-        <div class="row">
-          <div class="col-md-12">
-            <div class="skills-heading">
-              <h3 class="skills-title text-center">And So Much More...</h3>
-              <p class="skills-subheading">As an incessant learner, my experiences across a multitude of professional focus areas have endowed me with a broad array of skills.</p>
-            </div>
-          </div> <!-- /.col-md-12 -->
-        </div> <!-- /.row -->
-
-        <div class="row">
-          <div class="col-lg-3 col-sm-6">
-              <div class="service-item" id="service-3">
-                <div class="service-icon">
-                  <i class="fa fa-bar-chart-o"></i>
-                </div> <!-- /.service-icon -->
-                <div class="service-content">
-                  <div class="inner-service">
-                    <h3>Data Analysis</h3>
-                    <ul class="skill-list">
-                      <li>R
-                        <ul class="skill-detail">
-                          <li>RStudio</li>
-                          <li>Tidyverse</li>
-                          <li>RShiny</li>
-                        </ul>
-                      </li>
-                      <li>Stata</li>
-                      <li>SPSS</li>
-                      <li>Data Visualization
-                        <ul class="skill-detail">
-                          <li>D3</li>
-                          <li>Tableau</li>
-                        </ul>
-                      </li>
-                      <li>Data Mapping
-                        <ul class="skill-detail">                        
-                          <li>Mapbox</li>
-                          <li>Leaflet</li>
-                          <li>ArcGIS</li>
-                        </ul>
-                      </li>
-                      <li>Database Management
-                        <ul class="skill-detail">
-                          <li>MySQL</li>
-                          <li>MongoDB</li>
-                        </ul>                      
-                      </li>                  
-                      <li>MS Excel
-                        <ul class="skill-detail">
-                          <li>VLOOKUP</li>
-                          <li>Pivot Tables</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                </div> <!-- /.service-content -->
-              </div> <!-- /#service-1 -->
-            </div> <!-- /.col-lg-3 -->
-          <div class="col-lg-3 col-sm-6">
-            <div class="service-item" id="service-1">
-              <div class="service-icon">
-                <i class="fa fa-file-code-o"></i>
-              </div> <!-- /.service-icon -->
-              <div class="service-content">
-                <div class="inner-service">
-                  <h3>Web Development &ndash; Specialties</h3>
-                  <div class="skill-section">
-                    <h4>JavaScript</h4>
-                    <ul class="skill-list">
-                      <li>Front-end
-                        <ul class="skill-detail">
-                          <li>React</li>
-                          <li>AngularJS</li>
-                          <li>jQuery</li>
-                        </ul>
-                      </li>
-                      <li>Server-side
-                        <ul class="skill-detail">
-                          <li>Node.js</li>
-                          <li>Express</li>
-                        </ul>
-                      </li>
-                      <li>APIs
-                        <ul class="skill-detail">
-                          <li>REST</li>
-                          <li>GraphQL</li>
-                          <li>JSON</li>
-                        </ul>
-                      </li>
-                      <li>Build Tools
-                        <ul class="skill-detail">
-                          <li>NPM</li>
-                          <li>Gulp</li>
-                          <li>Webpack</li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="skill-section">
-                    <h4>Drupal 8</h4>
-                    <ul class="skill-list">
-                      <li>Theming
-                        <ul class="skill-detail">
-                          <li>Twig</li>
-                          <li>SCSS</li>
-                          <li>JS</li>
-                          <li>YAML</li>
-                        </ul>
-                      </li>
-                      <li>Sitebuilding
-                        <ul class="skill-detail">
-                          <li>Composer</li>
-                          <li>Drush</li>
-                        </ul>
-                      </li>
-                      <li>Custom Module Development</li>
-                    </ul>
-                  </div>
-                </div>
-              </div> <!-- /.service-content -->
-            </div> <!-- /#service-1 -->
-          </div> <!-- /.col-lg-3 -->
-          <div class="col-lg-3 col-sm-6">
-            <div class="service-item" id="service-2">
-              <div class="service-icon">
-                <i class="fa fa-database"></i>
-              </div> <!-- /.service-icon -->
-              <div class="service-content">
-                <div class="inner-service">
-                  <h3>Web Development &ndash; Other</h3>
-                  <ul class="skill-list">
-                    <li>CSS3
-                      <ul class="skill-detail">
-                        <li>Sass/SCSS</li>
-                        <li>Flexbox</li>
-                        <li>Transitions/Animations</li>
-                      </ul>                  
-                    </li>
-                    <li>Ruby
-                      <ul class="skill-detail">
-                        <li>Rails</li>
-                      </ul>
-                    </li>
-                    <li>HTML5</li>
-                    <li>Python</li>
-                    <li>Version Control
-                      <ul class="skill-detail">
-                        <li>Git/Github</li>
-                      </ul>
-                    </li>
-                    <li>Deployment
-                      <ul class="skill-detail">
-                        <li>Heroku</li>
-                        <li>AWS</li>
-                        <li>Docker</li>
-                      </ul>
-                    </li>
-                    <li>Command Line
-                      <ul class="skill-detail">
-                        <li>Bash</li>
-                        <li>Terminal</li>
-                      </ul>              
-                    </li>
-                    <li>Responsive Design</li>
-                    <li>Agile
-                      <ul class="skill-detail">
-                        <li>Scrum</li>
-                        <li>Kanban</li>
-                      </ul>   
-                    </li>
-                  </ul>
-                </div>
-              </div> <!-- /.service-content -->
-            </div> <!-- /#service-1 -->
-          </div> <!-- /.col-lg-3 -->
-          <div class="col-lg-3 col-sm-6">
-            <div class="service-item" id="service-4">
-              <div class="service-icon">
-                <i class="fa fa-users"></i>
-              </div> <!-- /.service-icon -->
-              <div class="service-content">
-                <div class="inner-service">
-                  <h3>Other Skills</h3>
-                  <ul class="skill-list">
-                    <li>Writing
-                      <ul class="skill-detail">
-                        <li>Analytical</li>
-                        <li>Persuasive</li>
-                      </ul>
-                    </li>
-                    <li>Content Strategy</li>
-                    <li>Project &amp; Product Management</li>
-                    <li>Teaching &amp; Mentoring</li>
-                    <li>Internet Research</li>
-                    <li>Public Policy Analysis</li>
-                    <li>Public Speaking</li>
-                    <li>Digital Communications</li>
-                  </ul>
-                </div>
-              </div> <!-- /.service-content -->
-            </div> <!-- /#service-4 -->
-          </div> <!-- /.col-lg-3 -->
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-    </div> <!-- /#skills -->
-
-
-
-    <div class="content-section" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="heading-section col-md-12 text-center">
-            <h2>Portfolio</h2>
-            <p>Web applications and other projects</p>
-          </div> <!-- /.heading-section -->
-        </div> <!-- /.row -->
-        <div class="row">
-          <div class="portfolio-item col-md-4 col-sm-6">
-            <div class="portfolio-thumb">
-              <img src="images/campaign_finance_app.png" alt="DC Campaign Finance Tracker home page">
-              <div class="portfolio-overlay">
-                <h3><a href="https://campaign-finance.codefordc.org/" target="_blank">DC Campaign Finance Tracker</h3></a>
-                <p>Code for DC beta website displaying local DC campaign contributions from 2010-15. I cleaned and transformed a large and very raw dataset in Excel and developed an aggregate Fundraising Integrity Score for each candidate.</p>
-                <a href="https://campaign-finance.codefordc.org/" target="_blank" class="expand">
-                  <i class="fa fa-search"></i>
-                </a>
-              </div> <!-- /.portfolio-overlay -->
-            </div> <!-- /.portfolio-thumb -->
-          </div> <!-- /.portfolio-item -->
-          <div class="portfolio-item col-md-4 col-sm-6">
-            <div class="portfolio-thumb">
-              <img src="images/ghsc_map.png" alt="Global Health Supply Chain - map with Nigeria country details">
-              <div class="portfolio-overlay">
-                <h3><a href="https://www.ghsupplychain.org/" target="_blank">USAID Global Health Supply Chain Program</a></h3>
-                <p>Offical website for the USAID Global Health Supply Chain program. As front-end lead through the site's full life cycle, I built a custom Drupal 8 theme &ndash; including an interactive global map &ndash; and performed most sitebuilding tasks.</p>
-                <a href="https://www.ghsupplychain.org/" target="_blank" class="expand">
-                  <i class="fa fa-search"></i>
-                </a>
-              </div> <!-- /.portfolio-overlay -->
-            </div> <!-- /.portfolio-thumb -->
-          </div> <!-- /.portfolio-item -->
-          <div class="portfolio-item col-md-4 col-sm-6">
-            <div class="portfolio-thumb">
-              <img src="images/move_mil.png" alt="Move.mil home page">
-              <div class="portfolio-overlay">
-                <h3><a href="https://move.mil/" target="_blank">Move.mil</a></h3>
-                <p>U.S. DOD Transportation Command website with moving resources for military servicemembers and their families. Drupal 8 site with four React progressive web applications. I led front-end UI development; contributed to Drupal sitebuilding and React apps.</p>
-                <a href="https://move.mil/" target="_blank" class="expand">
-                  <i class="fa fa-search"></i>
-                </a>
-              </div> <!-- /.portfolio-overlay -->
-            </div> <!-- /.portfolio-thumb -->
-          </div> <!-- /.portfolio-item -->
-          <div class="portfolio-item col-md-4 col-sm-6">
-            <div class="portfolio-thumb">
-              <img src="images/501c4_paper_cover.png" alt="Cover page of research brief on 501(c)(4) organizations.">
-              <div class="portfolio-overlay">
-                <h3><a href="https://www.urban.org/research/publication/camps-campaign-funds-history-anatomy-and-activities-501c4-organizations" target="_blank">Research Report on 501(c)(4) Organizations</a></h3>
-                <p>Published by the Urban Institute's Center on Nonprofits and Philanthropy, this report presents a complex, empirical methodology that I developed to estimate the number of 501(c)(4) advocacy and political groups.</p>
-                <a href="https://www.urban.org/research/publication/camps-campaign-funds-history-anatomy-and-activities-501c4-organizations" target="_blank" class="expand">
-                  <i class="fa fa-search"></i>
-                </a>
-              </div> <!-- /.portfolio-overlay -->
-            </div> <!-- /.portfolio-thumb -->
-          </div> <!-- /.portfolio-item -->
-          <div class="portfolio-item col-md-4 col-sm-6">
-            <div class="portfolio-thumb">
-              <img src="images/dcfuture_logo.png" alt="">
-              <div class="portfolio-overlay">
-                <h3 class="no-link">DCFuture</h3>
-                <p>A multifaceted platform built on WordPress, empowering DC residents to engage directly with each other and with their local government. Currently in development.</p>
-<!--            <a href="http://dcfuture.com" target="_blank" class="expand">
-                  <i class="fa fa-search"></i>
-                </a> -->
-              </div> <!-- /.portfolio-overlay -->
-            </div> <!-- /.portfolio-thumb -->
-          </div> <!-- /.portfolio-item -->
-          <div class="portfolio-item col-md-4 col-sm-6">
-            <div class="portfolio-thumb">
-              <img src="images/msi_logo.jpg" alt="">
-              <div class="portfolio-overlay">
-                <h3><a href="https://web.archive.org/web/20111103012843/http://www.mainstreetinsider.org/" target="_blank">Main Street Insider</a></a></h3>
-                <p>As President of Main Street Insider, I spearheaded development, promotion and ongoing production of three products making Congressional legislative process not just accessible, but <i>interesting</i>, to everyday citizens.</p>
-                <a href="https://web.archive.org/web/20111103012843/http://www.mainstreetinsider.org/" target="_blank" class="expand">
-                  <i class="fa fa-search"></i>
-                </a>
-              </div> <!-- /.portfolio-overlay -->
-            </div> <!-- /.portfolio-thumb -->
-          </div> <!-- /.portfolio-item -->
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-    </div> <!-- /#portfolio -->
-
-    <div class="content-section" id="resume">
-      <div class="container">
-        <div class="row">
-          <div class="heading-section col-md-12 text-center" class="expand">
-            <h2>R&eacute;sum&eacute;</h2>
-          </div> <!-- /.heading-section -->
-        </div> <!-- /.row -->
-        <div class="row text-center">
-          <a class="openresume btn btn-primary btn-lg" href="images/resume.pdf" target="_blank" class="expand">
-            View in New Tab
-          </a>
+          <div class="hero-proposition">
+            <p class="hero-quote">Building tools that help ordinary people understand, participate in, and shape the systems that affect their lives.</p>
+            <p class="hero-support">I combine software engineering, data visualization, and public policy to make complex systems more accessible, useful, and human.</p>
+          </div>
         </div>
-        <div class="showresume row text-center">
-          <div class="col-md-12">
-            <object type="application/pdf" data="images/resume.pdf" width="800" height="1000"></object>
-          </div> <!-- /.col-md-12 -->
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-    </div> <!-- /#resume -->
+        <div class="hero-footer">
+          <div class="professional-links" aria-label="Professional links">
+            <a href="https://github.com/jkoul" target="_blank" rel="noopener noreferrer">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.82c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.75-1.31-3.75-1.31-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 .1.77 2.53 3.26 1.8.1-.72.39-1.2.72-1.48-2.47-.28-5.07-1.24-5.07-5.52 0-1.22.44-2.22 1.16-3.01-.12-.28-.5-1.42.1-2.97 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.6 1.55.22 2.69.1 2.97.73.79 1.16 1.79 1.16 3.01 0 4.29-2.6 5.24-5.08 5.51.4.35.77 1.02.77 2.07v3.07c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/></svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/jkoulish" target="_blank" rel="noopener noreferrer">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.53v16.94c0 .85.69 1.53 1.55 1.53h16.9c.86 0 1.55-.68 1.55-1.53V3.53c0-.85-.69-1.53-1.55-1.53ZM7.93 18.75H4.98V9.2h2.95v9.55ZM6.45 7.9a1.71 1.71 0 1 1 .02-3.42 1.71 1.71 0 0 1-.02 3.42Zm12.31 10.85h-2.94V14.1c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.73H9.54V9.2h2.82v1.3h.04c.39-.74 1.35-1.53 2.78-1.53 2.98 0 3.58 1.96 3.58 4.5v5.28Z"/></svg>
+              LinkedIn
+            </a>
+            <a href="mailto:jeremy.koulish@gmail.com">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
+              Email
+            </a>
+          </div>
+          <a class="scroll-cue" href="#work">Selected work <span aria-hidden="true">↘</span></a>
+        </div>
+      </div>
+    </section>
 
-
-    <div class="content-section" id="contact">
+    <section class="section work-section" id="work" aria-labelledby="work-heading">
       <div class="container">
-        <div class="row">
-          <div class="heading-section col-md-12 text-center">
-            <h2>Contact Me</h2>
-            <p>I want to hear from you!</p>
-          </div> <!-- /.heading-section -->
-        </div> <!-- /.row -->
-        <div class="row">
-          <div class="col-md-7 col-sm-6">
-            <p>Whether you're a prospective employer, seek my services as a freelancer, want to discuss an opportunity for collaboration, or just want to say hi, please do not hesitate to reach out.</p>
-            <ul class="contact-info">
-                <li>Phone: 917-597-4397</li>
-                <li>Email: <a href="mailto:jeremy.koulish@gmail.com">jeremy.koulish@gmail.com</a></li>
-            </ul>
-            <!-- spacing for mobile viewing --><br><br>
-          </div> <!-- /.col-md-7 -->
-          <div class="col-md-5 col-sm-6">
-            <div class="contact-form">
-              <p id="returnmessage"></p>
-              <form class="form-horizontal" role="form" id="contactform" method="post">
-                <div class="form-group">
-                  <input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
-                </div>
-                <div class="form-group">
-                  <input name="_replyto" type="text" class="form-control" id="email" placeholder="Your Email">
-                </div>
-                <div class="form-group">
-                  <input name="subject" class="form-control" type="text" id="subject" placeholder="Subject">
-                </div>
-                <div class="form-group">
-                  <textarea name="message" class="form-control" id="message" placeholder="Message"></textarea>
-                </div>
-                <div class="form-group">
-                  <input name="submit" type="submit" class="mainBtn" id="submit" value="Send Message">
-                  <input type="hidden" name="_next" value="#" />
-                  <input type="hidden" name="_subject" value="New message submitted through kouli.sh" />
-                  <input type="text" name="_gotcha" style="display:none" />
-                </div>
-              </form>
-            </div> <!-- /.contact-form -->
-          </div> <!-- /.col-md-5 -->
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-    </div> <!-- /#contact -->
+        <div class="section-header">
+          <p class="eyebrow section-kicker">01 / Selected work</p>
+          <div>
+            <h2 id="work-heading">Ideas made tangible.</h2>
+            <p class="section-subhead">A few projects that illustrate how I approach engineering, information, and public impact.</p>
+          </div>
+        </div>
 
-    <div id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-xs-12 text-left">
-            <span>Copyright &copy; 2015 Jeremy Koulish</span>
-            <div class="col-md-4 hidden-xs text-right">
-              <a href="#top" id="go-top">Back to top</a>
+        <div class="projects">
+          <article class="project project-featured" aria-labelledby="project-ddp">
+            <div class="project-art art-ddp" aria-label="Editorial illustration of reusable UI elements, representing the DDP design system">
+              <div class="art-overline">Design tokens <span aria-hidden="true">/</span> Components <span aria-hidden="true">/</span> Patterns</div>
+              <div class="component-sheet" aria-hidden="true">
+                <div class="specimen-header"><b>COMPONENT LIBRARY</b><span class="specimen-dots"><i></i><i></i><i></i></span></div>
+                <div class="specimen-title">A shared language<br>for interfaces.</div>
+                <div class="specimen-rule"></div>
+                <div class="sample-elements"><span class="sample-button">Explore components</span><span class="sample-pill">New</span><span class="sample-outline">Reusable</span></div>
+                <div class="specimen-colors"><i></i><i></i><i></i><i></i><i></i></div>
+              </div>
+              <p class="art-caption">Conceptual component specimen • not a product screenshot</p>
             </div>
-          </div> <!-- /.text-center -->
-        </div> <!-- /.row -->
-      </div> <!-- /.container -->
-    </div> <!-- /#footer -->
+            <div class="project-copy">
+              <p class="project-index">01 / Digital Democracy Project</p>
+              <h3 id="project-ddp">An infrastructure for better civic products.</h3>
+              <p class="project-description">I designed and built DDP’s shared design system and reusable React component library, giving its civic technology products a consistent foundation for accessible interfaces. The publicly available package includes design tokens, SCSS foundations, documented components, and Storybook examples.</p>
+              <div class="tags"><span>React</span><span>TypeScript</span><span>Design systems</span><span>Accessibility</span></div>
+              <div class="project-links">
+                <a href="https://github.com/Digital-Democracy-Project/ddp-design-system" target="_blank" rel="noopener noreferrer">Explore the code <span aria-hidden="true">↗</span></a>
+                <a href="https://www.npmjs.com/package/@digital-democracy-project/design-system" target="_blank" rel="noopener noreferrer">Published package <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
 
-    <script src="js/vendor/jquery-1.11.0.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+          <article class="project" aria-labelledby="project-census">
+            <div class="project-art art-census">
+              <div class="census-fallback" aria-hidden="true"><span>data.census.gov</span><strong>Making census data accessible.</strong></div>
+              <img src="images/census-ulster.webp" alt="Ulster County, New York profile on data.census.gov, showing the geographic overview and highlights" width="700" height="467" loading="lazy" decoding="async">
+            </div>
+            <div class="project-copy">
+              <p class="project-index">02 / U.S. Census Bureau</p>
+              <h3 id="project-census">Making public data usable at scale.</h3>
+              <p class="project-description">Across nearly six years on data.census.gov, I helped build and modernize a complex, heavily used public data platform. My work spanned Vue architecture, rich data interfaces, accessibility, testing, and individual visualizations—including the population pyramid on county profiles.</p>
+              <div class="tags"><span>Vue / Nuxt</span><span>Data products</span><span>Frontend architecture</span></div>
+              <div class="project-links">
+                <a href="https://data.census.gov/profile/Ulster_County,_New_York?g=050XX00US36111" target="_blank" rel="noopener noreferrer">Explore Ulster County <span aria-hidden="true">↗</span></a>
+                <a href="https://data.census.gov/vizwidget?g=050XX00US36111&amp;infoSection=Age+and+Sex" target="_blank" rel="noopener noreferrer">Population pyramid <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
 
-  </body>
+          <article class="project" aria-labelledby="project-charts">
+            <div class="project-art art-charts">
+              <div class="chart-placeholder">
+                <p class="eyebrow">Census visualization / Vue + D3</p>
+                <strong>Charts made<br>to explain.</strong>
+                <span>A representative chart from the released Chart Page will go here.</span>
+              </div>
+            </div>
+            <div class="project-copy">
+              <p class="project-index">03 / U.S. Census Bureau</p>
+              <h3 id="project-charts">A chart library built for understanding.</h3>
+              <p class="project-description">I conceived and built a reusable visualization library with Vue and D3, aligned with Census data visualization standards, and led development of a dedicated Chart Page. It made sophisticated, consistent visualizations possible across a complex public data environment.</p>
+              <div class="tags"><span>D3.js</span><span>Vue</span><span>Data visualization</span><span>Component architecture</span></div>
+            </div>
+          </article>
+
+          <article class="project" aria-labelledby="project-investor">
+            <div class="project-art art-investor">
+              <span class="investor-stripe" aria-hidden="true"></span>
+              <p class="eyebrow">U.S. Securities and Exchange Commission</p>
+              <strong>Investor.gov</strong>
+              <p>Information and tools for individual investors.</p>
+            </div>
+            <div class="project-copy">
+              <p class="project-index">04 / Federal digital services</p>
+              <h3 id="project-investor">Accessible information for investors.</h3>
+              <p class="project-description">As a developer at Bixal, I helped deliver responsive, accessible federal websites, including Investor.gov. The work combined government digital service standards with front-end implementation, content-focused interfaces, and cross-browser quality.</p>
+              <div class="tags"><span>Drupal</span><span>Responsive UI</span><span>Section 508</span></div>
+              <div class="project-links"><a href="https://www.investor.gov/" target="_blank" rel="noopener noreferrer">Visit Investor.gov <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="project project-research" aria-labelledby="project-research">
+            <div class="project-art art-research">
+              <img src="https://kouli.sh/images/501c4_paper_cover.png" width="460" height="310" alt="Cover of the Urban Institute research paper on 501(c)(4) organizations" loading="lazy" decoding="async">
+            </div>
+            <div class="project-copy">
+              <p class="project-index">05 / Urban Institute · Research &amp; policy</p>
+              <h3 id="project-research">Camps and campaign funds.</h3>
+              <p class="project-description">For an Urban Institute study of 501(c)(4) advocacy and political organizations, I developed an empirical methodology to estimate the number of politically active groups. It’s an earlier expression of a throughline in my work: using data to make opaque public systems more understandable.</p>
+              <div class="tags"><span>Quantitative research</span><span>Public policy</span><span>Nonprofits</span></div>
+              <div class="project-links"><a href="https://www.urban.org/research/publication/camps-campaign-funds-history-anatomy-and-activities-501c4-organizations" target="_blank" rel="noopener noreferrer">Read the report <span aria-hidden="true">↗</span></a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section expertise-section" id="expertise" aria-labelledby="expertise-heading">
+      <div class="container">
+        <div class="section-header">
+          <p class="eyebrow section-kicker">02 / Core expertise</p>
+          <div><h2 id="expertise-heading">Tools, systems,<br>and craft.</h2><p class="section-subhead">My work sits where frontend engineering, usable information, and thoughtful product decisions meet.</p></div>
+        </div>
+        <div class="skills">
+          <section class="skill-group" aria-labelledby="skill-frontend">
+            <h3 id="skill-frontend">Frontend engineering</h3>
+            <p>TypeScript · JavaScript · Vue 3 / Nuxt · React / Next.js · HTML · CSS / SCSS · Responsive design</p>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-data">
+            <h3 id="skill-data">Visualization &amp; experience</h3>
+            <p>D3.js · Mapbox · Data-rich interfaces · Design systems · Component libraries · WCAG accessibility</p>
+          </section>
+          <section class="skill-group" aria-labelledby="skill-systems">
+            <h3 id="skill-systems">Architecture &amp; delivery</h3>
+            <p>REST APIs · Python / Django · SQL · Testing with Vitest and Playwright · Performance · Technical leadership</p>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-section" id="about" aria-labelledby="about-heading">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow section-kicker">03 / About</p>
+          <h2 id="about-heading">A different path to engineering.</h2>
+        </div>
+        <div class="about-copy">
+          <p>I've always been fascinated by finding meaningful patterns in noisy systems. That curiosity first drew me toward data, economics, public policy, and research—and eventually toward building the technology myself.</p>
+          <p>My career has crossed grassroots advocacy, nonprofit research, strategic communications, civic technology, and software engineering. The connecting question has been remarkably consistent: how can we help ordinary people better understand and shape the decisions that affect their lives?</p>
+          <p>Today, I bring that interdisciplinary perspective to building accessible, data-intensive digital products, with a particular interest in tools that strengthen public understanding and participation.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="container">
+      <div class="footer-main">
+        <div>
+          <p class="eyebrow footer-kicker">04 / Contact</p>
+          <h2>Let's build something<br>worth using.</h2>
+          <p>Interested in accessible products, data visualization, or civic technology? I'd be glad to connect.</p>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:jeremy.koulish@gmail.com">Email me <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/in/jkoulish" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/jkoul" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="footer-meta">
+        <span>© 2026 Jeremy Koulish</span>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
