@@ -3,223 +3,320 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#17262e">
-  <meta name="description" content="Jeremy Koulish — Senior Frontend & Product Engineer. Building accessible, data-rich technology at the intersection of software engineering, data, and public policy.">
-  <title>Jeremy Koulish | Senior Frontend & Product Engineer</title>
-  <meta property="og:title" content="Jeremy Koulish — Senior Frontend & Product Engineer">
-  <meta property="og:description" content="Selected engineering and research work at the intersection of technology, data, and public policy.">
+  <title>Jeremy Koulish | Senior Frontend &amp; Product Engineer</title>
+  <meta name="description" content="Interdisciplinary civic tech leader at the intersection of software engineering, data and public policy, building tools that help ordinary people understand, participate in, and shape the systems that affect their lives.">
+  <link rel="canonical" href="https://kouli.sh/">
+  <meta name="theme-color" content="#14242b">
   <meta property="og:type" content="website">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2317262e'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial,sans-serif' font-size='35' font-weight='bold' fill='%23f7f5ef'%3EJK%3C/text%3E%3C/svg%3E">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/refresh-2026.css">
+  <meta property="og:url" content="https://kouli.sh/">
+  <meta property="og:title" content="Jeremy Koulish | Senior Frontend &amp; Product Engineer">
+  <meta property="og:description" content="Interdisciplinary civic tech leader at the intersection of software engineering, data and public policy, building tools that help ordinary people understand, participate in, and shape the systems that affect their lives.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/public-sans-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-  <header class="site-header">
-    <div class="container nav-inner">
-      <a class="wordmark" href="#top" aria-label="Jeremy Koulish, back to top">JK<span>.</span></a>
-      <nav class="main-nav" aria-label="Main navigation">
-        <a href="#work">Work</a>
-        <a href="#expertise">Expertise</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+  <header class="site-header surface-dark">
+    <div class="container site-header__inner">
+      <a class="site-header__name" href="#top">Jeremy Koulish</a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="site-nav__list">
+          <li><a href="#work">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
+      <a class="button button--compact" href="jeremy-koulish-resume.pdf" target="_blank" rel="noopener">Résumé<span class="visually-hidden"> (PDF)</span></a>
     </div>
   </header>
 
   <main id="main">
-    <section id="top" class="hero" aria-labelledby="hero-heading">
-      <div class="container hero-inner">
-        <p class="eyebrow hero-eyebrow">Software engineering <span aria-hidden="true">/</span> Data <span aria-hidden="true">/</span> Public policy</p>
-        <h1 id="hero-heading" class="hero-name"><span>Jeremy</span><span>Koulish<span class="name-period">.</span></span></h1>
-        <div class="hero-message">
-          <div class="hero-identity">
-            <p class="hero-job">Senior Frontend &amp;<br>Product Engineer</p>
-            <p class="hero-place">Based in New York</p>
-          </div>
-          <div class="hero-proposition">
-            <p class="hero-quote">Building tools that help ordinary people understand, participate in, and shape the systems that affect their lives.</p>
-            <p class="hero-support">I combine software engineering, data visualization, and public policy to make complex systems more accessible, useful, and human.</p>
+    <section class="hero surface-dark" id="top" aria-labelledby="hero-name">
+      <div class="container">
+        <p class="eyebrow">Software engineering <span aria-hidden="true">/</span> Data <span aria-hidden="true">/</span> Public policy</p>
+        <h1 class="hero__name" id="hero-name">Jeremy Koulish</h1>
+
+        <div class="hero__body">
+          <p class="hero__role">
+            Senior Frontend &amp; Product Engineer
+            <span class="hero__place">Based in New York</span>
+          </p>
+          <div>
+            <p class="hero__tagline">Building tools that help ordinary people understand, participate in, and shape the systems that affect their lives.</p>
+            <p class="hero__support">I believe democracy is strongest when ordinary people can contribute their knowledge, experience, and judgment as effectively as powerful people and institutions. I build tools to make that possible.</p>
           </div>
         </div>
-        <div class="hero-footer">
-          <div class="professional-links" aria-label="Professional links">
-            <a href="https://github.com/jkoul" target="_blank" rel="noopener noreferrer">
+
+        <ul class="hero__links">
+          <li><a class="button" href="jeremy-koulish-resume.pdf" target="_blank" rel="noopener">Résumé<span class="visually-hidden"> (PDF)</span></a></li>
+          <li>
+            <a class="icon-link" href="https://github.com/jkoul" target="_blank" rel="noopener">
               <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .8a11.2 11.2 0 0 0-3.54 21.82c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.75-1.31-3.75-1.31-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 .1.77 2.53 3.26 1.8.1-.72.39-1.2.72-1.48-2.47-.28-5.07-1.24-5.07-5.52 0-1.22.44-2.22 1.16-3.01-.12-.28-.5-1.42.1-2.97 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.6 1.55.22 2.69.1 2.97.73.79 1.16 1.79 1.16 3.01 0 4.29-2.6 5.24-5.08 5.51.4.35.77 1.02.77 2.07v3.07c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/></svg>
               GitHub
             </a>
-            <a href="https://www.linkedin.com/in/jkoulish" target="_blank" rel="noopener noreferrer">
+          </li>
+          <li>
+            <a class="icon-link" href="https://www.linkedin.com/in/jkoulish" target="_blank" rel="noopener">
               <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.53v16.94c0 .85.69 1.53 1.55 1.53h16.9c.86 0 1.55-.68 1.55-1.53V3.53c0-.85-.69-1.53-1.55-1.53ZM7.93 18.75H4.98V9.2h2.95v9.55ZM6.45 7.9a1.71 1.71 0 1 1 .02-3.42 1.71 1.71 0 0 1-.02 3.42Zm12.31 10.85h-2.94V14.1c0-1.11-.02-2.54-1.55-2.54-1.55 0-1.79 1.21-1.79 2.46v4.73H9.54V9.2h2.82v1.3h.04c.39-.74 1.35-1.53 2.78-1.53 2.98 0 3.58 1.96 3.58 4.5v5.28Z"/></svg>
               LinkedIn
             </a>
-            <a href="mailto:jeremy.koulish@gmail.com">
+          </li>
+          <li>
+            <a class="icon-link" href="mailto:jeremy.koulish@gmail.com">
               <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3.5 6 8.5 7 8.5-7"/></svg>
               Email
             </a>
-          </div>
-          <a class="scroll-cue" href="#work">Selected work <span aria-hidden="true">↘</span></a>
-        </div>
+          </li>
+        </ul>
       </div>
     </section>
 
-    <section class="section work-section" id="work" aria-labelledby="work-heading">
+    <section class="section" id="work" aria-labelledby="work-heading">
       <div class="container">
-        <div class="section-header">
-          <p class="eyebrow section-kicker">01 / Selected work</p>
-          <div>
-            <h2 id="work-heading">Ideas made tangible.</h2>
-            <p class="section-subhead">A few projects that illustrate how I approach engineering, information, and public impact.</p>
-          </div>
-        </div>
+        <header class="section-heading">
+          <h2 id="work-heading">Selected work</h2>
+        </header>
 
         <div class="projects">
-          <article class="project project-featured" aria-labelledby="project-ddp">
-            <div class="project-art art-ddp" aria-label="Editorial illustration of reusable UI elements, representing the DDP design system">
-              <div class="art-overline">Design tokens <span aria-hidden="true">/</span> Components <span aria-hidden="true">/</span> Patterns</div>
-              <div class="component-sheet" aria-hidden="true">
-                <div class="specimen-header"><b>COMPONENT LIBRARY</b><span class="specimen-dots"><i></i><i></i><i></i></span></div>
-                <div class="specimen-title">A shared language<br>for interfaces.</div>
-                <div class="specimen-rule"></div>
-                <div class="sample-elements"><span class="sample-button">Explore components</span><span class="sample-pill">New</span><span class="sample-outline">Reusable</span></div>
-                <div class="specimen-colors"><i></i><i></i><i></i><i></i><i></i></div>
-              </div>
-              <p class="art-caption">Conceptual component specimen • not a product screenshot</p>
-            </div>
-            <div class="project-copy">
-              <p class="project-index">01 / Digital Democracy Project</p>
-              <h3 id="project-ddp">An infrastructure for better civic products.</h3>
-              <p class="project-description">I designed and built DDP’s shared design system and reusable React component library, giving its civic technology products a consistent foundation for accessible interfaces. The publicly available package includes design tokens, SCSS foundations, documented components, and Storybook examples.</p>
-              <div class="tags"><span>React</span><span>TypeScript</span><span>Design systems</span><span>Accessibility</span></div>
-              <div class="project-links">
-                <a href="https://github.com/Digital-Democracy-Project/ddp-design-system" target="_blank" rel="noopener noreferrer">Explore the code <span aria-hidden="true">↗</span></a>
-                <a href="https://www.npmjs.com/package/@digital-democracy-project/design-system" target="_blank" rel="noopener noreferrer">Published package <span aria-hidden="true">↗</span></a>
-              </div>
-            </div>
-          </article>
-
-          <article class="project" aria-labelledby="project-census">
-            <div class="project-art art-census">
-              <div class="census-fallback" aria-hidden="true"><span>data.census.gov</span><strong>Making census data accessible.</strong></div>
-
-            </div>
-            <div class="project-copy">
-              <p class="project-index">02 / U.S. Census Bureau</p>
-              <h3 id="project-census">Making public data usable at scale.</h3>
-              <p class="project-description">Across nearly six years on data.census.gov, I helped build and modernize a complex, heavily used public data platform. My work spanned Vue architecture, rich data interfaces, accessibility, testing, and individual visualizations—including the population pyramid on county profiles.</p>
-              <div class="tags"><span>Vue / Nuxt</span><span>Data products</span><span>Frontend architecture</span></div>
-              <div class="project-links">
-                <a href="https://data.census.gov/profile/Ulster_County,_New_York?g=050XX00US36111" target="_blank" rel="noopener noreferrer">Explore Ulster County <span aria-hidden="true">↗</span></a>
-                <a href="https://data.census.gov/vizwidget?g=050XX00US36111&amp;infoSection=Age+and+Sex" target="_blank" rel="noopener noreferrer">Population pyramid <span aria-hidden="true">↗</span></a>
-              </div>
+          <article class="project project--feature" aria-labelledby="project-census">
+            <figure class="project__media project__media--profile">
+              <img class="screenshot" src="images/census-ulster.webp" width="1100" height="734" loading="lazy" decoding="async" alt="The Ulster County, New York profile on data.census.gov: a county map alongside headline statistics for population, income, education, employment, housing, and health.">
+            </figure>
+            <div class="project__body">
+              <p class="project__meta">U.S. Census Bureau</p>
+              <h3 id="project-census">data.census.gov</h3>
+              <p class="project__description">For six years, I was a senior frontend engineer and data visualization specialist for data.census.gov, the Census Bureau’s flagship open data platform. I guided overhauls of its most heavily trafficked, data-intensive views (the table, map, and profile pages), built visualizations like the population pyramid on those profiles, and mentored other developers along the way.</p>
+              <ul class="tag-list">
+                <li>Vue 3</li>
+                <li>TypeScript</li>
+                <li>Ag-Grid</li>
+                <li>MapLibre</li>
+                <li>Vite</li>
+                <li>Vitest</li>
+              </ul>
+              <ul class="project__links">
+                <li><a href="https://data.census.gov/" target="_blank" rel="noopener">Visit data.census.gov<span aria-hidden="true"> ↗</span></a></li>
+                <li><a href="https://data.census.gov/vizwidget?g=050XX00US36111&amp;infoSection=Age+and+Sex" target="_blank" rel="noopener">Population pyramid example<span aria-hidden="true"> ↗</span></a></li>
+              </ul>
             </div>
           </article>
 
-          <article class="project" aria-labelledby="project-charts">
-            <div class="project-art art-charts">
-              <div class="chart-placeholder">
-                <p class="eyebrow">Census visualization / Vue + D3</p>
-                <strong>Charts made<br>to explain.</strong>
-                <span>A representative chart from the released Chart Page will go here.</span>
+          <article class="project project--feature project--reverse" aria-labelledby="project-charts">
+            <figure class="project__media project__media--chart">
+              <img class="screenshot" src="images/census-chart-japan.webp" width="1100" height="749" loading="lazy" decoding="async" alt="A line chart from the data.census.gov Chart Page: Japan’s total midyear population by single year of age, for ages 0, 20, 40, 60, 80, and 100, from 1990 projected through 2100.">
+            </figure>
+            <div class="project__body">
+              <p class="project__meta">U.S. Census Bureau</p>
+              <h3 id="project-charts">Chart library &amp; Chart page</h3>
+              <p class="project__description">Early in my tenure, I inherited inconsistent Chart.js implementations that broke on mobile and strayed from Census Data Visualization Standards. Over four years, largely without a mandate, I envisioned and built a custom chart library adapting D3.js to Vue’s reactivity, standards-aligned out of the box. It became the foundation for a new Chart page I led, which launched in December 2024 to praise from high-ranking Census officials.</p>
+              <ul class="tag-list">
+                <li>D3.js</li>
+                <li>Vue</li>
+                <li>Data visualization</li>
+              </ul>
+              <ul class="project__links">
+                <li><a href="https://data.census.gov/chart/IDBSINGLEYEAR.IDBSINGLEYEAR?g=W140000WOAF,JP&amp;y=2100&amp;type=line&amp;nkd=AGE~0:100:20:40:60:80,time~1990:1991:1992:1993:1994:1995:1996:1997:1998:1999:2000:2001:2002:2003:2004:2005:2006:2007:2008:2009:2010:2011:2012:2013:2014:2015:2016:2017:2018:2019:2020:2021:2022:2023:2024:2025:2026:2027:2028:2029:2030:2031:2032:2033:2034:2035:2036:2037:2038:2039:2040:2041:2042:2043:2044:2045:2046:2047:2048:2049:2050:2051:2052:2053:2054:2055:2056:2057:2058:2059:2060:2061:2062:2063:2064:2065:2066:2067:2068:2069:2070:2071:2072:2073:2074:2075:2076:2077:2078:2079:2080:2081:2082:2083:2084:2085:2086:2087:2088:2089:2090:2091:2092:2093:2094:2095:2096:2097:2098:2099:2100&amp;attrs=AGE&amp;consts=GEO_ID~W140000WOJP&amp;sort=desc" target="_blank" rel="noopener">Explore this chart<span aria-hidden="true"> ↗</span></a></li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project project--feature" aria-labelledby="project-ddp">
+            <div class="project__media project__media--package">
+              <div class="package">
+                <dl class="package__facts">
+                  <div>
+                    <dt>npm package</dt>
+                    <dd>@digital-democracy-project/design-system</dd>
+                  </div>
+                  <div>
+                    <dt>Documentation</dt>
+                    <dd>digital-democracy-project.github.io/ddp-design-system/storybook</dd>
+                  </div>
+                  <div>
+                    <dt>Source</dt>
+                    <dd>github.com/Digital-Democracy-Project/ddp-design-system</dd>
+                  </div>
+                </dl>
+                <pre class="package__install"><code><span class="package__prompt" aria-hidden="true">$ </span>npm install @digital-democracy-project/design-system</code></pre>
               </div>
             </div>
-            <div class="project-copy">
-              <p class="project-index">03 / U.S. Census Bureau</p>
-              <h3 id="project-charts">A chart library built for understanding.</h3>
-              <p class="project-description">I conceived and built a reusable visualization library with Vue and D3, aligned with Census data visualization standards, and led development of a dedicated Chart Page. It made sophisticated, consistent visualizations possible across a complex public data environment.</p>
-              <div class="tags"><span>D3.js</span><span>Vue</span><span>Data visualization</span><span>Component architecture</span></div>
+            <div class="project__body">
+              <p class="project__meta">Digital Democracy Project</p>
+              <h3 id="project-ddp">DDP design system &amp; React component library</h3>
+              <p class="project__description"><a href="https://digitaldemocracyproject.org/" target="_blank" rel="noopener">DDP’s public website</a> had grown into a mess of inconsistent design patterns. As I rebuild it as a Next.js application, I created a custom design system and React component library to enforce consistent, accessible patterns across the whole site. It ships as a lightweight npm package with Storybook documentation, so every future DDP product can start from the same foundation.</p>
+              <ul class="tag-list">
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>SCSS modules</li>
+                <li>Storybook</li>
+                <li>WCAG AA</li>
+              </ul>
+              <ul class="project__links">
+                <li><a href="https://digital-democracy-project.github.io/ddp-design-system/storybook/" target="_blank" rel="noopener">Storybook documentation<span aria-hidden="true"> ↗</span></a></li>
+                <li><a href="https://github.com/Digital-Democracy-Project/ddp-design-system" target="_blank" rel="noopener">Explore the code<span aria-hidden="true"> ↗</span></a></li>
+                <li><a href="https://www.npmjs.com/package/@digital-democracy-project/design-system" target="_blank" rel="noopener">Published package<span aria-hidden="true"> ↗</span></a></li>
+              </ul>
             </div>
           </article>
 
           <article class="project" aria-labelledby="project-investor">
-            <div class="project-art art-investor">
-              <span class="investor-stripe" aria-hidden="true"></span>
+            <div class="project__media project__media--investor">
               <p class="eyebrow">U.S. Securities and Exchange Commission</p>
-              <strong>Investor.gov</strong>
-              <p>Information and tools for individual investors.</p>
+              <p class="investor-wordmark">Investor.gov</p>
             </div>
-            <div class="project-copy">
-              <p class="project-index">04 / Federal digital services</p>
-              <h3 id="project-investor">Accessible information for investors.</h3>
-              <p class="project-description">As a developer at Bixal, I helped deliver responsive, accessible federal websites, including Investor.gov. The work combined government digital service standards with front-end implementation, content-focused interfaces, and cross-browser quality.</p>
-              <div class="tags"><span>Drupal</span><span>Responsive UI</span><span>Section 508</span></div>
-              <div class="project-links"><a href="https://www.investor.gov/" target="_blank" rel="noopener noreferrer">Visit Investor.gov <span aria-hidden="true">↗</span></a></div>
+            <div class="project__body">
+              <h3 class="visually-hidden" id="project-investor">Investor.gov</h3>
+              <p class="project__description">At Bixal Solutions, I built responsive, high-traffic Drupal websites for nearly a dozen federal government agencies. For me, the SEC’s Investor.gov stands out from the pack as an enduring resource hub featuring a series of user-friendly interactive tools, like the <a href="https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator" target="_blank" rel="noopener">Compound Interest Calculator</a>, designed to help ordinary people make more informed investment decisions.</p>
+              <ul class="tag-list">
+                <li>Drupal</li>
+                <li>Responsive design</li>
+                <li>Section 508</li>
+              </ul>
+              <ul class="project__links">
+                <li><a href="https://www.investor.gov/" target="_blank" rel="noopener">Visit Investor.gov<span aria-hidden="true"> ↗</span></a></li>
+              </ul>
             </div>
           </article>
 
-          <article class="project project-research" aria-labelledby="project-research">
-            <div class="project-art art-research">
-              <img src="images/501c4_paper_cover.png" width="460" height="310" alt="Cover of the Urban Institute research paper on 501(c)(4) organizations" loading="lazy" decoding="async">
-            </div>
-            <div class="project-copy">
-              <p class="project-index">05 / Urban Institute · Research &amp; policy</p>
-              <h3 id="project-research">Camps and campaign funds.</h3>
-              <p class="project-description">For an Urban Institute study of 501(c)(4) advocacy and political organizations, I developed an empirical methodology to estimate the number of politically active groups. It’s an earlier expression of a throughline in my work: using data to make opaque public systems more understandable.</p>
-              <div class="tags"><span>Quantitative research</span><span>Public policy</span><span>Nonprofits</span></div>
-              <div class="project-links"><a href="https://www.urban.org/research/publication/camps-campaign-funds-history-anatomy-and-activities-501c4-organizations" target="_blank" rel="noopener noreferrer">Read the report <span aria-hidden="true">↗</span></a></div>
+          <article class="project" aria-labelledby="project-research">
+            <figure class="project__media project__media--cover">
+              <img src="images/501c4_paper_cover.png" width="707" height="707" loading="lazy" decoding="async" alt="Cover of the Urban Institute research report “From Camps to Campaign Funds: The History, Anatomy, and Activities of 501(c)(4) Organizations” by Jeremy Koulish.">
+            </figure>
+            <div class="project__body">
+              <p class="project__meta">Urban Institute</p>
+              <h3 id="project-research">From Camps to Campaign Funds</h3>
+              <p class="project__description">Amidst the IRS controversy around 501(c)(4) organizations in 2013, I penned a blog post for the Urban Institute aiming to dispel myths about the 501(c)(4) subsector, which directly inspired an article by Time’s Michael Grunwald. I later fleshed that commentary out into an in-depth, first-of-its-kind research report on the history, anatomy, and activities of the subsector.</p>
+              <ul class="tag-list">
+                <li>Quantitative research</li>
+                <li>Public policy</li>
+                <li>Nonprofits</li>
+              </ul>
+              <ul class="project__links">
+                <li><a href="https://www.urban.org/research/publication/camps-campaign-funds-history-anatomy-and-activities-501c4-organizations" target="_blank" rel="noopener">Read the report<span aria-hidden="true"> ↗</span></a></li>
+              </ul>
             </div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section expertise-section" id="expertise" aria-labelledby="expertise-heading">
+    <section class="section section--tinted" id="skills" aria-labelledby="skills-heading">
       <div class="container">
-        <div class="section-header">
-          <p class="eyebrow section-kicker">02 / Core expertise</p>
-          <div><h2 id="expertise-heading">Tools, systems,<br>and craft.</h2><p class="section-subhead">My work sits where frontend engineering, usable information, and thoughtful product decisions meet.</p></div>
-        </div>
+        <header class="section-heading">
+          <h2 id="skills-heading">Skills</h2>
+        </header>
+
         <div class="skills">
-          <section class="skill-group" aria-labelledby="skill-frontend">
-            <h3 id="skill-frontend">Frontend engineering</h3>
-            <p>TypeScript · JavaScript · Vue 3 / Nuxt · React / Next.js · HTML · CSS / SCSS · Responsive design</p>
+          <section class="skill-group" aria-labelledby="skills-frontend">
+            <h3 id="skills-frontend">Frontend/UI Engineering</h3>
+            <ul class="tag-list">
+              <li>TypeScript</li>
+              <li>JavaScript</li>
+              <li>Vue 3</li>
+              <li>React</li>
+              <li>Nuxt</li>
+              <li>Next.js</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>SSR</li>
+              <li>Responsive design</li>
+              <li>Accessibility/WCAG &amp; Section 508</li>
+            </ul>
           </section>
-          <section class="skill-group" aria-labelledby="skill-data">
-            <h3 id="skill-data">Visualization &amp; experience</h3>
-            <p>D3.js · Mapbox · Data-rich interfaces · Design systems · Component libraries · WCAG accessibility</p>
+          <section class="skill-group" aria-labelledby="skills-dataviz">
+            <h3 id="skills-dataviz">UI Systems &amp; Data Visualization</h3>
+            <ul class="tag-list">
+              <li>Design systems</li>
+              <li>Component libraries</li>
+              <li>D3.js</li>
+              <li>Mapbox</li>
+              <li>Ag-Grid</li>
+              <li>SCSS</li>
+              <li>USWDS</li>
+              <li>Storybook</li>
+            </ul>
           </section>
-          <section class="skill-group" aria-labelledby="skill-systems">
-            <h3 id="skill-systems">Architecture &amp; delivery</h3>
-            <p>REST APIs · Python / Django · SQL · Testing with Vitest and Playwright · Performance · Technical leadership</p>
+          <section class="skill-group" aria-labelledby="skills-testing">
+            <h3 id="skills-testing">Testing &amp; Application Architecture</h3>
+            <ul class="tag-list">
+              <li>Jest</li>
+              <li>Vitest</li>
+              <li>Playwright</li>
+              <li>REST/GraphQL</li>
+              <li>OpenAPI</li>
+              <li>Web performance</li>
+              <li>Frontend architecture</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="skills-fullstack">
+            <h3 id="skills-fullstack">Full-Stack &amp; Infrastructure</h3>
+            <ul class="tag-list">
+              <li>Node.js/Express</li>
+              <li>Python</li>
+              <li>Django</li>
+              <li>SQL</li>
+              <li>Docker</li>
+              <li>AWS/ECS/Terraform</li>
+              <li>CI/CD</li>
+              <li>npm</li>
+              <li>Vite</li>
+              <li>Webpack</li>
+              <li>Git/GitHub/GitLab</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="skills-ai">
+            <h3 id="skills-ai">AI-Assisted Development</h3>
+            <ul class="tag-list">
+              <li>Claude Code</li>
+              <li>GitHub Copilot</li>
+              <li>Claude Design</li>
+              <li>ChatGPT/Codex</li>
+            </ul>
+          </section>
+          <section class="skill-group" aria-labelledby="skills-product">
+            <h3 id="skills-product">Product &amp; Leadership</h3>
+            <ul class="tag-list">
+              <li>Product engineering</li>
+              <li>Product management</li>
+              <li>Mentoring</li>
+              <li>Data storytelling</li>
+              <li>Content strategy</li>
+              <li>Technical writing</li>
+              <li>Cross-functional collaboration</li>
+            </ul>
           </section>
         </div>
       </div>
     </section>
 
-    <section class="section about-section" id="about" aria-labelledby="about-heading">
-      <div class="container about-grid">
-        <div>
-          <p class="eyebrow section-kicker">03 / About</p>
-          <h2 id="about-heading">A different path to engineering.</h2>
-        </div>
-        <div class="about-copy">
-          <p>I've always been fascinated by finding meaningful patterns in noisy systems. That curiosity first drew me toward data, economics, public policy, and research—and eventually toward building the technology myself.</p>
-          <p>My career has crossed grassroots advocacy, nonprofit research, strategic communications, civic technology, and software engineering. The connecting question has been remarkably consistent: how can we help ordinary people better understand and shape the decisions that affect their lives?</p>
-          <p>Today, I bring that interdisciplinary perspective to building accessible, data-intensive digital products, with a particular interest in tools that strengthen public understanding and participation.</p>
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container about">
+        <h2 id="about-heading">About</h2>
+        <div class="about__copy">
+          <p>One simple question has driven my career: how can we give ordinary people a stronger voice in public decisionmaking?</p>
+          <p>Early in my career, that question took me on a journey through grassroots advocacy, policy research, strategic communications, data science, and nonprofit management. About a decade ago, it led me into software engineering, data visualization, and civic tech product development, where I could build cutting-edge technology myself instead of simply advocating for it.</p>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer" id="contact">
+  <footer class="site-footer surface-dark" id="contact">
     <div class="container">
-      <div class="footer-main">
-        <div>
-          <p class="eyebrow footer-kicker">04 / Contact</p>
-          <h2>Let's build something<br>worth using.</h2>
-          <p>Interested in accessible products, data visualization, or civic technology? I'd be glad to connect.</p>
-        </div>
-        <div class="footer-links">
-          <a href="mailto:jeremy.koulish@gmail.com">Email me <span aria-hidden="true">↗</span></a>
-          <a href="https://www.linkedin.com/in/jkoulish" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-          <a href="https://github.com/jkoul" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-        </div>
+      <div class="site-footer__main">
+        <h2>Contact</h2>
+        <ul class="contact-links">
+          <li><a href="mailto:jeremy.koulish@gmail.com">Email<span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://www.linkedin.com/in/jkoulish" target="_blank" rel="noopener">LinkedIn<span aria-hidden="true">↗</span></a></li>
+          <li><a href="https://github.com/jkoul" target="_blank" rel="noopener">GitHub<span aria-hidden="true">↗</span></a></li>
+          <li><a href="jeremy-koulish-resume.pdf" target="_blank" rel="noopener">Résumé (PDF)<span aria-hidden="true">↗</span></a></li>
+        </ul>
       </div>
-      <div class="footer-meta">
-        <span>© 2026 Jeremy Koulish</span>
-        <a href="#top">Back to top ↑</a>
+      <div class="site-footer__meta">
+        <p>© 2026 Jeremy Koulish</p>
+        <a href="#top">Back to top</a>
       </div>
     </div>
   </footer>
